@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.1N">
         <activity
-            android:name=".TeamActivity"
-            android:exported="false" />
-        <activity
             android:name=".SubActivity"
             android:exported="false" />
         <activity
