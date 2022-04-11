@@ -1,4 +1,4 @@
-package com.example.n2
+package com.example.a1_n
 
 import org.junit.Test
 
