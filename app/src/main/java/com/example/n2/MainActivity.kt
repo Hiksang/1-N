@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SubActivity::class.java)
             intent.putExtra("msg", tv_title.text.toString())
             startActivity(intent)
+            finish()
         }
     }
 }
