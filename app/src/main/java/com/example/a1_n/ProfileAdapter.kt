@@ -8,9 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Adapter
 
-class ProfileAdapter(val profileList: ArrayList<Profiles>): Adapter<ProfileAdapter.CustomViewHolder>() {
+class ProfileAdapter(val profileList: ArrayList<Profiles>): RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileAdapter.CustomViewHolder {
@@ -40,6 +39,3 @@ class ProfileAdapter(val profileList: ArrayList<Profiles>): Adapter<ProfileAdapt
     }
 
 }
-
-
-

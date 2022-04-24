@@ -1,21 +1,14 @@
 package com.example.a1_n
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract
-import android.view.View
-import android.widget.*
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.activity_sub.*
 
-class MainActivity2 : AppCompatActivity() {
-
-
-    override fun onCreate(savedInstanceState: Bundle?) { //액티비티의 실행 시작지점
+class SubActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_sub)
 
         val profileList = arrayListOf(
             Profiles(R.drawable.cflogo1, "24시 고래성", 1000, "20분소요예상"),
@@ -28,8 +21,5 @@ class MainActivity2 : AppCompatActivity() {
         rv_profile.setHasFixedSize(true)
         rv_profile.adapter = ProfileAdapter(profileList)
 
-        }
     }
-
-
-
+}
