@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.1N">
         <activity
+            android:name=".timelocation"
+            android:exported="false" />
+        <activity
+            android:name=".time"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
