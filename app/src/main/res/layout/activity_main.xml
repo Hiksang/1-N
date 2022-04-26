@@ -8,21 +8,30 @@
 
     <TextView
         android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="370dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:drawableBottom="@drawable/sw370x43"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:drawableBottom="@drawable/cf80x80"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         android:text="Button"
+        app:iconPadding="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintVertical_bias="0.652" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
