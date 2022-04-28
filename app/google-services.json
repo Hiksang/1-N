@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640766722934",
+    "project_id": "diliver-1n",
+    "storage_bucket": "diliver-1n.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640766722934:android:31de4e4b60501b8bb87057",
+        "android_client_info": {
+          "package_name": "com.example.a1_n"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640766722934-9ug7r8bdoj4ri2hu9piok7jdc5o40ae1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_HjYH8UypAF2_lRQmhD2Ekp-SN4edcIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640766722934-9ug7r8bdoj4ri2hu9piok7jdc5o40ae1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
