@@ -4,14 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Teammake">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="팀 목록화면  생성버튼 만들어야함"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="257dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#4529e5"
+        android:onClick="goWebAppActivity"
+        android:text="WebApp 연동 예제"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#4529e5"
+        android:onClick="goNativeActivity"
+        android:text="Native 연동 예제"
+        android:textColor="#fff" />
+
+
 </LinearLayout>
