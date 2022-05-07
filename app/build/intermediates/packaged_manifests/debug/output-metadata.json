@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.a1_n",
+  "applicationId": "com.example.listview",
   "variantName": "debug",
   "elements": [
     {
