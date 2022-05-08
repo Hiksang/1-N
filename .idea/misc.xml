@@ -3,10 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_teammake.xml" value="0.3182291666666667" />
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/activity_subspace.xml" value="0.12454710144927536" />
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/activity_team.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/subspace.xml" value="0.3578125" />
+<<<<<<< HEAD
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.14235055724417425" />
+        <entry key="app/src/main/res/layout/activity_sub.xml" value="0.25679347826086957" />
+        <entry key="app/src/main/res/layout/activity_subspace.xml" value="0.29270833333333335" />
+        <entry key="app/src/main/res/layout/activity_team.xml" value="0.29270833333333335" />
+=======
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5244791666666667" />
+>>>>>>> main
+        <entry key="app/src/main/res/layout/subspace.xml" value="0.5385416666666667" />
+        <entry key="app/src/main/res/layout/team.xml" value="0.5385416666666667" />
+        <entry key="app/src/main/res/layout/title.xml" value="0.5385416666666667" />
       </map>
     </option>
   </component>
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
 </project>
