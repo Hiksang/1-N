@@ -37,12 +37,13 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true">
+
         <Button
             android:id="@+id/logoutButton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text ="로그아웃"/>
+            android:text="로그아웃" />
 
         <Button
             android:id="@+id/btn_2"
@@ -143,7 +144,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginLeft="332dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="485dp"
         app:srcCompat="@drawable/meat" />
 
     <ImageView
@@ -184,5 +185,5 @@
         android:layout_marginLeft="332dp"
         android:layout_marginTop="580dp"
         app:srcCompat="@drawable/lunchbox" />
-    
+
 </RelativeLayout>
