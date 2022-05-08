@@ -39,9 +39,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.google.firebase:firebase-firestore:24.1.2'
     implementation 'com.github.bootpay:android:+'
+
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
     implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
-
+    implementation project(path: ':core')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
