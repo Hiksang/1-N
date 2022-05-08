@@ -1,5 +1,6 @@
 package com.example.n1_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class option extends AppCompatActivity {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = database.getReference();
+    private Button add_Btn1;
 
 
 
@@ -22,6 +24,14 @@ public class option extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_option);
+        add_Btn1 = findViewById(R.id.add_btn1);
+        add_Btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(option.this,menu.class);
+                startActivity(intent);
+            }
+        });
         TextView tv_result = (TextView)findViewById(R.id.tv_result);
         TextView tv_result2 = (TextView)findViewById(R.id.tv_result2);
         TextView tv_result3 = (TextView)findViewById(R.id.tv_result3);

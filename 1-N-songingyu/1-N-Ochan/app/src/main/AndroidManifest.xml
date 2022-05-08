@@ -38,6 +38,8 @@
         <activity android:name=".NativeActivity" />
         <activity android:name=".WebAppActivity" />
         <activity android:name=".option"/>
+        <activity android:name=".menu"/>
+        <activity android:name=".menu2"/>
     </application>
 
 </manifest>

@@ -42,6 +42,14 @@
         android:text="rn" />
 
     <Button
+        android:id="@+id/add_btn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="100dp"
+        android:text="메뉴선택" />
+
+    <Button
         android:id="@+id/add_btn"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
