@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_count.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_count.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_option.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\pizza.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teammake.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_teammake.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\chicken.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_night.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\night.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_asian.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\asian.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_native.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_native.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_webapp.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_webapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_chinese.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\chinese.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_fastfood.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\fastfood.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_korean.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\korean.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_soup.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\soup.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_lunchbox.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\lunchbox.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_meat.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\meat.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_sw370x43.png.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\sw370x43.png"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_japanese.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\japanese.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\xml_chbutton.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\xml\\chbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_team_make.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\team_make.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_jokbal.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\jokbal.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_cafe.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\cafe.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_serch.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\serch.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_western.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\western.jpg"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\build\\intermediates\\merged_res\\debug\\drawable_school.jpg.flat",
+        "source": "C:\\Users\\jtw17\\OneDrive\\file\\1-N\\1-N-Ochan\\app\\src\\main\\res\\drawable\\school.jpg"
+    }
+]

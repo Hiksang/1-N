@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.n1_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- android 11 모든 앱 접근 권한 사용  (Google Play 가이드라인 참고 - 2021-02-19 기준 못찾았음) -->
+    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" /> -->
+    <!-- android 11 Package Visibility 설정 (compileSdkVersion, targetSdkVersion 30 이상 설정시 필수) -->
+    <!-- 2021-02-19 -->
+    <queries>
+
+        <!-- 다날[신한, BC(페이북), 국민, 현대, 삼성, 하나, 롯데, 농협, 우리, 씨티, 페이코, 삼성페이, 카카오페이, 뱅크페이, SSG페이, 스마일페이, 엘페이] -->
+        <!-- KCP [페이코, 현대, BC(페이북), 롯데, 국민, 농협, 삼성, 신한, 우리, 하나, 씨티] -->
+        <!-- 이니시스 [카카오페이, 네이버페이, 신한, 하나, 현대, 삼성, 국민, BC(페이북), 농협, 롯데, 씨티, 페이코, 엘페이, SSG페이, 차이, 토스, 삼성페이] -->
+        <!-- 나이스페이 [신한, 국민, 삼성, BC(페이북), 롯데, 현대, 하나 농협, 씨티, 우리] -->
+        <!-- 토스페이먼츠 [현대, 신한, 페이북, 국민, 삼성, 롯데, 농협, 우리] -->
+        <!-- 이지페이 [현대, 하나, 국민, 롯데, 삼성, BC(페이북) 신한, 하나, 농협, 씨티, 우리, 페이코] -->
+        <!-- 티페이 [BC(페이북), 국민, 하나, 삼성, 신한, 현대, 롯데, 농협, 씨티, 우리] -->
+        <!-- 페이레터 [BC(페이북), 국민, 하나, 삼성, 신한, 현대. 롯데, 농협, 씨티, ] -->
+        <!-- 월컴페이먼츠 [카카오, 엘페이, 현대, BC(페이북), 국민, 삼성, 신한, 롯데, 농협, 하나, 씨티, 하나, 우리] -->
+
+
+        <!-- 간편결제 -->
+        <package android:name="com.nhnent.payapp" /> <!-- 페이코 -->
+        <package android:name="com.lottemembers.android" /> <!-- LPAY -->
+        <package android:name="com.ssg.serviceapp.android.egiftcertificate" /> <!-- SSG 페이 -->
+        <package android:name="com.inicis.kpay" /> <!-- 이니시스 KPAY -->
+        <package android:name="com.tmoney.tmpay" /> <!-- 티머니페이 -->
+        <package android:name="viva.republica.toss" /> <!-- 토스페이 -->
+        <package android:name="com.kakao.talk" /> <!-- 카카오페이 -->
+        <package android:name="com.mysmilepay.app" /> <!-- 스마일 페이 -->
+        <package android:name="com.lotte.lpay" /> <!-- 엘페이 -->
+        <package android:name="finance.chai.app" /> <!-- 차이 -->
+        <package android:name="com.nhn.android.search" /> <!-- 네이버 -->
+
+
+        <!-- 앱카드 -->
+        <package android:name="kvp.jjy.MispAndroid320" /> <!-- BC 페이북 -->
+        <package android:name="com.kbcard.kbkookmincard" /> <!-- 국민카드 -->
+        <package android:name="com.kbcard.cxh.appcard" /> <!-- 국민카드 -->
+        <package android:name="com.kbstar.liivbank" /> <!-- 국민 리브 -->
+        <package android:name="com.kbstar.reboot" /> <!-- 국민 new 리브 -->
+        <package android:name="com.samsung.android.spay" /> <!-- 삼성페이 -->
+        <package android:name="com.samsung.android.spaylite" /> <!-- 삼성페이 미니 -->
+        <package android:name="com.lge.lgpay" /> <!-- 엘지페이 -->
+        <package android:name="com.hanaskcard.paycla" /> <!-- 하나카드 -->
+        <package android:name="kr.co.hanamembers.hmscustomer" /> <!-- 하나카드(멤버스결제) -->
+        <package android:name="com.lcacApp" /> <!-- 롯데카드 -->
+        <package android:name="kr.co.samsungcard.mpocket" /> <!-- 삼성카드 -->
+        <package android:name="com.shcard.smartpay" /> <!-- 신한카드 -->
+        <package android:name="com.shinhancard.smartshinhan" /> <!-- 신한카드 (ARS/일반결제/Smart결제) -->
+        <package android:name="com.hyundaicard.appcard" /> <!-- 현대카드 -->
+        <package android:name="nh.smart.nhallonepay" /> <!-- 농협카드 -->
+        <package android:name="com.wooricard.wpay" /> <!-- 우리카드 -->
+        <package android:name="com.wooricard.smartapp" /> <!-- 우리 WON 카드 -->
+        <package android:name="com.wooribank.smart.npib" /> <!-- 우리 WON 뱅킹 -->
+        <package android:name="kr.co.citibank.citimobile" /> <!-- 씨티카드 -->
+
+
+        <!-- 계좌이체 -->
+        <package android:name="com.kftc.bankpay.android" /> <!-- 뱅크페이 -->
+        <package android:name="com.kbankwith.smartbank" /> <!-- 케이뱅크 -->
+        <package android:name="com.knb.psb" /> <!-- BNK 경남은행 모바일뱅킹 -->
+        <package android:name="kr.co.kfcc.mobilebank" /> <!-- MG 새마을금고 -->
+        <package android:name="com.nh.cashcardapp" /> <!-- NH앱캐시 -->
+
+
+        <!-- 공인인증(신용카드) -->
+        <package android:name="com.hanaskcard.rocomo.potal" /> <!-- 하나카드 -->
+        <package android:name="com.lumensoft.touchenappfree" /> <!-- 현대카드 -->
+
+
+        <!-- 보안앱 -->
+        <package android:name="com.TouchEn.mVaccine.webs" /> <!-- 신한, 씨티 -->
+        <package android:name="kr.co.shiftworks.vguardweb" /> <!-- 삼성 -->
+        <package android:name="com.ahnlab.v3mobileplus" /> <!-- 하나, 농협, 우리, 국민 리브 -->
+
+
+        <!-- 휴대폰 결제 -->
+        <package android:name="com.kt.ktauth" /> <!-- KT 본인인증 -->
+        <package android:name="kr.danal.app.damoum" /> <!-- 다모음 -->
+        <package android:name="uplus.membership" /> <!-- U+ 멤버스 -->
+    </queries>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.N1_project" >
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/chbutton" />
+
+        <activity
+            android:name="com.example.n1_project.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.n1_project.MainActivity"
+            android:exported="true" />
+        <activity android:name="com.example.n1_project.LoginActivity" />
+        <activity android:name="com.example.n1_project.SignUpActivity" />
+        <activity
+            android:name="com.example.n1_project.Teammake"
+            android:exported="false" />
+        <activity android:name="com.example.n1_project.NativeActivity" />
+        <activity android:name="com.example.n1_project.WebAppActivity" />
+        <activity android:name="com.example.n1_project.option" />
+        <activity android:name="com.example.n1_project.MENUActivity" />
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.n1_project.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.n1_project.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

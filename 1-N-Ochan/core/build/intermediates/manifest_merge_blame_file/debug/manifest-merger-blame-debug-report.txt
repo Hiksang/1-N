@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.co.bootpay.core" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:6:5-66
+9-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:6:22-64
+10    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+10-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:7:5-74
+10-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:7:22-72
+11
+12    <!-- android 11 모든 앱 접근 권한 사용  (Google Play 가이드라인 참고 - 2021-02-19 기준 못찾았음) -->
+13    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" /> -->
+14    <!-- android 11 Package Visibility 설정 (compileSdkVersion, targetSdkVersion 30 이상 설정시 필수) -->
+15    <!-- 2021-02-19 -->
+16    <queries>
+16-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:13:5-81:15
+17
+18        <!-- 다날[신한, BC(페이북), 국민, 현대, 삼성, 하나, 롯데, 농협, 우리, 씨티, 페이코, 삼성페이, 카카오페이, 뱅크페이, SSG페이, 스마일페이, 엘페이] -->
+19        <!-- KCP [페이코, 현대, BC(페이북), 롯데, 국민, 농협, 삼성, 신한, 우리, 하나, 씨티] -->
+20        <!-- 이니시스 [카카오페이, 네이버페이, 신한, 하나, 현대, 삼성, 국민, BC(페이북), 농협, 롯데, 씨티, 페이코, 엘페이, SSG페이, 차이, 토스, 삼성페이] -->
+21        <!-- 나이스페이 [신한, 국민, 삼성, BC(페이북), 롯데, 현대, 하나 농협, 씨티, 우리] -->
+22        <!-- 토스페이먼츠 [현대, 신한, 페이북, 국민, 삼성, 롯데, 농협, 우리] -->
+23        <!-- 이지페이 [현대, 하나, 국민, 롯데, 삼성, BC(페이북) 신한, 하나, 농협, 씨티, 우리, 페이코] -->
+24        <!-- 티페이 [BC(페이북), 국민, 하나, 삼성, 신한, 현대, 롯데, 농협, 씨티, 우리] -->
+25        <!-- 페이레터 [BC(페이북), 국민, 하나, 삼성, 신한, 현대. 롯데, 농협, 씨티, ] -->
+26        <!-- 월컴페이먼츠 [카카오, 엘페이, 현대, BC(페이북), 국민, 삼성, 신한, 롯데, 농협, 하나, 씨티, 하나, 우리] -->
+27
+28
+29        <!-- 간편결제 -->
+30        <package android:name="com.nhnent.payapp" /> <!-- 페이코 -->
+30-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:25:9-53
+30-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:25:18-50
+31        <package android:name="com.lottemembers.android" /> <!-- LPAY -->
+31-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:26:9-60
+31-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:26:18-57
+32        <package android:name="com.ssg.serviceapp.android.egiftcertificate" /> <!-- SSG 페이 -->
+32-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:27:9-79
+32-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:27:18-76
+33        <package android:name="com.inicis.kpay" /> <!-- 이니시스 KPAY -->
+33-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:28:9-51
+33-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:28:18-48
+34        <package android:name="com.tmoney.tmpay" /> <!-- 티머니페이 -->
+34-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:29:9-52
+34-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:29:18-49
+35        <package android:name="viva.republica.toss" /> <!-- 토스페이 -->
+35-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:30:9-55
+35-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:30:18-52
+36        <package android:name="com.kakao.talk" /> <!-- 카카오페이 -->
+36-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:31:9-50
+36-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:31:18-47
+37        <package android:name="com.mysmilepay.app" /> <!-- 스마일 페이 -->
+37-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:32:9-54
+37-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:32:18-51
+38        <package android:name="com.lotte.lpay" /> <!-- 엘페이 -->
+38-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:33:9-50
+38-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:33:18-47
+39        <package android:name="finance.chai.app" /> <!-- 차이 -->
+39-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:34:9-52
+39-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:34:18-49
+40        <package android:name="com.nhn.android.search" /> <!-- 네이버 -->
+40-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:35:9-58
+40-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:35:18-55
+41
+42
+43        <!-- 앱카드 -->
+44        <package android:name="kvp.jjy.MispAndroid320" /> <!-- BC 페이북 -->
+44-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:38:9-58
+44-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:38:18-55
+45        <package android:name="com.kbcard.kbkookmincard" /> <!-- 국민카드 -->
+45-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:39:9-60
+45-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:39:18-57
+46        <package android:name="com.kbcard.cxh.appcard" /> <!-- 국민카드 -->
+46-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:40:9-58
+46-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:40:18-55
+47        <package android:name="com.kbstar.liivbank" /> <!-- 국민 리브 -->
+47-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:41:9-55
+47-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:41:18-52
+48        <package android:name="com.kbstar.reboot" /> <!-- 국민 new 리브 -->
+48-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:42:9-53
+48-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:42:18-50
+49        <package android:name="com.samsung.android.spay" /> <!-- 삼성페이 -->
+49-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:43:9-60
+49-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:43:18-57
+50        <package android:name="com.samsung.android.spaylite" /> <!-- 삼성페이 미니 -->
+50-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:44:9-64
+50-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:44:18-61
+51        <package android:name="com.lge.lgpay" /> <!-- 엘지페이 -->
+51-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:45:9-49
+51-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:45:18-46
+52        <package android:name="com.hanaskcard.paycla" /> <!-- 하나카드 -->
+52-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:46:9-57
+52-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:46:18-54
+53        <package android:name="kr.co.hanamembers.hmscustomer" /> <!-- 하나카드(멤버스결제) -->
+53-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:47:9-65
+53-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:47:18-62
+54        <package android:name="com.lcacApp" /> <!-- 롯데카드 -->
+54-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:48:9-47
+54-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:48:18-44
+55        <package android:name="kr.co.samsungcard.mpocket" /> <!-- 삼성카드 -->
+55-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:49:9-61
+55-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:49:18-58
+56        <package android:name="com.shcard.smartpay" /> <!-- 신한카드 -->
+56-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:50:9-55
+56-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:50:18-52
+57        <package android:name="com.shinhancard.smartshinhan" /> <!-- 신한카드 (ARS/일반결제/Smart결제) -->
+57-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:51:9-64
+57-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:51:18-61
+58        <package android:name="com.hyundaicard.appcard" /> <!-- 현대카드 -->
+58-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:52:9-59
+58-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:52:18-56
+59        <package android:name="nh.smart.nhallonepay" /> <!-- 농협카드 -->
+59-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:53:9-56
+59-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:53:18-53
+60        <package android:name="com.wooricard.wpay" /> <!-- 우리카드 -->
+60-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:54:9-54
+60-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:54:18-51
+61        <package android:name="com.wooricard.smartapp" /> <!-- 우리 WON 카드 -->
+61-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:55:9-58
+61-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:55:18-55
+62        <package android:name="com.wooribank.smart.npib" /> <!-- 우리 WON 뱅킹 -->
+62-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:56:9-60
+62-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:56:18-57
+63        <package android:name="kr.co.citibank.citimobile" /> <!-- 씨티카드 -->
+63-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:57:9-61
+63-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:57:18-58
+64
+65
+66        <!-- 계좌이체 -->
+67        <package android:name="com.kftc.bankpay.android" /> <!-- 뱅크페이 -->
+67-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:61:9-60
+67-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:61:18-57
+68        <package android:name="com.kbankwith.smartbank" /> <!-- 케이뱅크 -->
+68-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:62:9-59
+68-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:62:18-56
+69        <package android:name="com.knb.psb" /> <!-- BNK 경남은행 모바일뱅킹 -->
+69-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:63:9-47
+69-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:63:18-44
+70        <package android:name="kr.co.kfcc.mobilebank" /> <!-- MG 새마을금고 -->
+70-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:64:9-57
+70-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:64:18-54
+71        <package android:name="com.nh.cashcardapp" /> <!-- NH앱캐시 -->
+71-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:65:9-54
+71-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:65:18-51
+72
+73
+74        <!-- 공인인증(신용카드) -->
+75        <package android:name="com.hanaskcard.rocomo.potal" /> <!-- 하나카드 -->
+75-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:68:9-63
+75-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:68:18-60
+76        <package android:name="com.lumensoft.touchenappfree" /> <!-- 현대카드 -->
+76-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:69:9-64
+76-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:69:18-61
+77
+78
+79        <!-- 보안앱 -->
+80        <package android:name="com.TouchEn.mVaccine.webs" /> <!-- 신한, 씨티 -->
+80-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:73:9-61
+80-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:73:18-58
+81        <package android:name="kr.co.shiftworks.vguardweb" /> <!-- 삼성 -->
+81-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:74:9-62
+81-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:74:18-59
+82        <package android:name="com.ahnlab.v3mobileplus" /> <!-- 하나, 농협, 우리, 국민 리브 -->
+82-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:75:9-59
+82-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:75:18-56
+83
+84
+85        <!-- 휴대폰 결제 -->
+86        <package android:name="com.kt.ktauth" /> <!-- KT 본인인증 -->
+86-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:78:9-49
+86-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:78:18-46
+87        <package android:name="kr.danal.app.damoum" /> <!-- 다모음 -->
+87-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:79:9-55
+87-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:79:18-52
+88        <package android:name="uplus.membership" /> <!-- U+ 멤버스 -->
+88-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:80:9-52
+88-->C:\Users\jtw17\OneDrive\file\1-N\1-N-Ochan\core\src\main\AndroidManifest.xml:80:18-49
+89    </queries>
+90
+91</manifest>
