@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcc2043-6cf9-4fca-9e57-61dddfb1d1bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/.Rhistory" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/.idea/.gitignore" beforeDir="false" />
@@ -35,14 +36,26 @@
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/java/com/example/n1_project/Teammake.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/java/com/example/n1_project/WebAppActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/asian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/cafe.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/chicken.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/chinese.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/fastfood.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/japanese.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/jokbal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/korean.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/lunchbox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/meat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/night.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/school.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/serch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/soup.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/splash.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/sw370x43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/drawable/western.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/app/src/main/res/layout/activity_native.xml" beforeDir="false" />
@@ -76,6 +89,7 @@
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-N-Firebase/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +136,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1651908347498" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1651995175306" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
