@@ -1,6 +1,6 @@
 package com.example.n1_project;
 
-public class User {
+public class  User {
     private String location;
     private String rn;
     private String time;
