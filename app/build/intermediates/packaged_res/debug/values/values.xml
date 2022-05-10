@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="location">
+        <item>가천관</item>
+        <item>산학협력관</item>
+    </string-array>
+    <string-array name="method">
+        <item>카드결제</item>
+        <item>휴대폰소액결제</item>
+        <item>가상계좌</item>
+        <item>계좌이체</item>
+        <item>카드정기결제</item>
+        <item>간편결제</item>
+        <item>주문결제</item>
+        <item>부트페이 간편결제</item>
+        <item>카카오페이</item>
+        <item>네이버페이</item>
+        <item>페이코</item>
+        <item>본인인증</item>
+    </string-array>
+    <string-array name="pg">
+        <item>KCP</item>
+        <item>다날</item>
+        <item>LGU+</item>
+        <item>이니시스</item>
+        <item>나이스페이</item>
+        <item>페이앱</item>
+        <item>네이버페이</item>
+        <item>카카오페이</item>
+        <item>TPAY</item>
+        <item>페이레터</item>
+        <item>KICC</item>
+        <item>웰컴페이먼츠</item>
+    </string-array>
+    <string-array name="rn">
+        <item>고래성</item>
+    </string-array>
+    <string-array name="time">
+        <item>00:00~00:30</item>
+        <item>00:30~01:00</item>
+        <item>01:00~01:30</item>
+        <item>01:30~02:00</item>
+        <item>02:00~02:30</item>
+        <item>02:30~03:00</item>
+        <item>03:00~03:30</item>
+        <item>03:30~04:00</item>
+        <item>04:00~04:30</item>
+        <item>04:30~05:00</item>
+        <item>05:00~05:30</item>
+        <item>05:30~06:00</item>
+        <item>06:00~06:30</item>
+        <item>06:30~07:00</item>
+        <item>07:00~07:30</item>
+        <item>07:30~08:00</item>
+        <item>08:00~08:30</item>
+        <item>08:30~09:00</item>
+        <item>09:00~09:30</item>
+        <item>09:30~10:00</item>
+        <item>10:00~10:30</item>
+        <item>10:30~11:00</item>
+        <item>11:00~11:30</item>
+        <item>11:30~12:00</item>
+        <item>12:00~12:30</item>
+        <item>12:30~13:00</item>
+        <item>13:00~13:30</item>
+        <item>13:30~14:00</item>
+        <item>14:00~14:30</item>
+        <item>14:30~15:00</item>
+        <item>15:00~15:30</item>
+        <item>15:30~16:00</item>
+        <item>16:00~16:30</item>
+        <item>16:30~17:00</item>
+        <item>17:00~17:30</item>
+        <item>17:30~18:00</item>
+        <item>18:00~18:30</item>
+        <item>18:30~19:00</item>
+        <item>19:00~19:30</item>
+        <item>19:30~20:00</item>
+        <item>20:00~20:30</item>
+        <item>20:30~21:00</item>
+        <item>21:00~21:30</item>
+        <item>21:30~22:00</item>
+        <item>22:00~22:30</item>
+        <item>22:30~23:00</item>
+        <item>23:00~23:30</item>
+        <item>23:30~24:00</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -7,8 +92,18 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Listview</string>
-    <style name="Theme.Listview" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <string name="app_name">n1_project</string>
+    <string name="default_web_client_id" translatable="false">829221095853-0phlhe19v2094k7a6ckvj9ff01r771j8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">829221095853</string>
+    <string name="google_api_key" translatable="false">AIzaSyChXoH_x0F-l4Y74MtYYGf5tn3iyVIv7LI</string>
+    <string name="google_app_id" translatable="false">1:829221095853:android:cbb84d9beb9eecbaf37924</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyChXoH_x0F-l4Y74MtYYGf5tn3iyVIv7LI</string>
+    <string name="google_storage_bucket" translatable="false">fint-1c7c4.appspot.com</string>
+    <string name="project_id" translatable="false">fint-1c7c4</string>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="Theme.N1_project" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -20,5 +115,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+
+
     </style>
 </resources>

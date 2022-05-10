@@ -3,9 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jtw17/AndroidStudioProjects/Listview/app/src/main/res/layout/activity_list.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/jtw17/AndroidStudioProjects/Listview/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/jtw17/AndroidStudioProjects/Listview/app/src/main/res/layout/activity_sub.xml" value="0.20104166666666667" />
+<<<<<<< Updated upstream
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/activity_subspace.xml" value="0.12454710144927536" />
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/activity_team.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/cik06/Documents/GitHub/1-N/app/src/main/res/layout/subspace.xml" value="0.3578125" />
+<<<<<<< HEAD
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.14235055724417425" />
+        <entry key="app/src/main/res/layout/activity_sub.xml" value="0.25679347826086957" />
+        <entry key="app/src/main/res/layout/activity_subspace.xml" value="0.29270833333333335" />
+        <entry key="app/src/main/res/layout/activity_team.xml" value="0.29270833333333335" />
+=======
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5244791666666667" />
+>>>>>>> main
+        <entry key="app/src/main/res/layout/subspace.xml" value="0.5385416666666667" />
+        <entry key="app/src/main/res/layout/team.xml" value="0.5385416666666667" />
+        <entry key="app/src/main/res/layout/title.xml" value="0.5385416666666667" />
       </map>
     </option>
   </component>
@@ -15,4 +28,14 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+=======
+        <entry key="app/src/main/res/layout/activity_menu2.xml" value="0.3972222222222222" />
+        <entry key="app/src/main/res/layout/activity_native.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/layout/activity_option.xml" value="0.3972222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+>>>>>>> Stashed changes
 </project>
