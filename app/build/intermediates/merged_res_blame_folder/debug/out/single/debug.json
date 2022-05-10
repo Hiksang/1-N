@@ -116,6 +116,10 @@
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/drawable_border.xml.flat",
+        "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/drawable/border.xml"
+    },
+    {
         "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },

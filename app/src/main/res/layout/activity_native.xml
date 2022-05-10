@@ -76,35 +76,8 @@
 
 
             <Button
-                android:text="결제 시작"
-                android:background="#4529e5"
-                android:textColor="#fff"
-                android:onClick="goRequest"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp" />
-
-            <Button
                 android:text="통합결제창"
                 android:onClick="goTotalRequest"
-                android:background="#4529e5"
-                android:layout_marginTop="10dp"
-                android:textColor="#fff"
-                android:layout_width="match_parent"
-                android:layout_height="40dp" />
-
-            <Button
-                android:text="통계 - 회원정보 송신"
-                android:onClick="goTraceUser"
-                android:background="#4529e5"
-                android:layout_marginTop="10dp"
-                android:textColor="#fff"
-                android:layout_width="match_parent"
-                android:layout_height="40dp" />
-
-            <Button
-                android:text="통계 - 페이지추적 송신"
-                android:onClick="goTracePage"
                 android:background="#4529e5"
                 android:layout_marginTop="10dp"
                 android:textColor="#fff"
