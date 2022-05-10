@@ -8,60 +8,66 @@
 
     <Spinner
         android:id="@+id/spinner_3"
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
         android:entries="@array/rn"></Spinner>
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="150dp"
         android:layout_height="40dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="250dp"
         android:entries="@array/time"></Spinner>
 
     <Spinner
         android:id="@+id/spinner_2"
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="300dp"
         android:entries="@array/location"></Spinner>
 
     <TextView
         android:id="@+id/tv_result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="time" />
 
     <TextView
         android:id="@+id/tv_result2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="location" />
     <TextView
         android:id="@+id/tv_result3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="rn" />
 
     <Button
         android:id="@+id/add_btn1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-250dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="500dp"
         android:text="메뉴선택" />
 
     <Button
         android:id="@+id/add_btn"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-100dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="500dp"
         android:text="등록" />
 
     <Button
         android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="-100dp"
-        android:layout_marginTop="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
         android:background="#4529e5"
         android:onClick="goNativeActivity"
         android:text="결제"
