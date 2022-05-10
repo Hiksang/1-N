@@ -69,7 +69,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="500dp"
         android:onClick="goNativeActivity"
-        android:text="결제"
-        android:textColor="#fff" />
+        android:text="결제"/>
 
 </LinearLayout>
