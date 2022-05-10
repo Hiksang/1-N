@@ -1,0 +1,474 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.n1_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- android 11 모든 앱 접근 권한 사용  (Google Play 가이드라인 참고 - 2021-02-19 기준 못찾았음) -->
+13-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:11:5-75
+13-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:11:22-72
+14    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" /> -->
+15    <!-- android 11 Package Visibility 설정 (compileSdkVersion, targetSdkVersion 30 이상 설정시 필수) -->
+16    <!-- 2021-02-19 -->
+17    <queries>
+17-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:17:5-90:15
+18
+19        <!-- 다날[신한, BC(페이북), 국민, 현대, 삼성, 하나, 롯데, 농협, 우리, 씨티, 페이코, 삼성페이, 카카오페이, 뱅크페이, SSG페이, 스마일페이, 엘페이] -->
+20        <!-- KCP [페이코, 현대, BC(페이북), 롯데, 국민, 농협, 삼성, 신한, 우리, 하나, 씨티] -->
+21        <!-- 이니시스 [카카오페이, 네이버페이, 신한, 하나, 현대, 삼성, 국민, BC(페이북), 농협, 롯데, 씨티, 페이코, 엘페이, SSG페이, 차이, 토스, 삼성페이] -->
+22        <!-- 나이스페이 [신한, 국민, 삼성, BC(페이북), 롯데, 현대, 하나 농협, 씨티, 우리] -->
+23        <!-- 토스페이먼츠 [현대, 신한, 페이북, 국민, 삼성, 롯데, 농협, 우리] -->
+24        <!-- 이지페이 [현대, 하나, 국민, 롯데, 삼성, BC(페이북) 신한, 하나, 농협, 씨티, 우리, 페이코] -->
+25        <!-- 티페이 [BC(페이북), 국민, 하나, 삼성, 신한, 현대, 롯데, 농협, 씨티, 우리] -->
+26        <!-- 페이레터 [BC(페이북), 국민, 하나, 삼성, 신한, 현대. 롯데, 농협, 씨티, ] -->
+27        <!-- 월컴페이먼츠 [카카오, 엘페이, 현대, BC(페이북), 국민, 삼성, 신한, 롯데, 농협, 하나, 씨티, 하나, 우리] -->
+28
+29
+30        <!-- 간편결제 -->
+31        <package android:name="com.nhnent.payapp" /> <!-- 페이코 -->
+31-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:31:9-53
+31-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:31:18-50
+32        <package android:name="com.lottemembers.android" /> <!-- LPAY -->
+32-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:32:9-60
+32-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:32:18-57
+33        <package android:name="com.ssg.serviceapp.android.egiftcertificate" /> <!-- SSG 페이 -->
+33-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:33:9-79
+33-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:33:18-76
+34        <package android:name="com.inicis.kpay" /> <!-- 이니시스 KPAY -->
+34-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:34:9-51
+34-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:34:18-48
+35        <package android:name="com.tmoney.tmpay" /> <!-- 티머니페이 -->
+35-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:35:9-52
+35-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:35:18-49
+36        <package android:name="viva.republica.toss" /> <!-- 토스페이 -->
+36-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:36:9-55
+36-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:36:18-52
+37        <package android:name="com.kakao.talk" /> <!-- 카카오페이 -->
+37-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:37:9-50
+37-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:37:18-47
+38        <package android:name="com.mysmilepay.app" /> <!-- 스마일 페이 -->
+38-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:38:9-54
+38-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:38:18-51
+39        <package android:name="com.lotte.lpay" /> <!-- 엘페이 -->
+39-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:39:9-50
+39-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:39:18-47
+40        <package android:name="finance.chai.app" /> <!-- 차이 -->
+40-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:40:9-52
+40-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:40:18-49
+41        <package android:name="com.nhn.android.search" /> <!-- 네이버 -->
+41-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:41:9-58
+41-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:41:18-55
+42
+43
+44        <!-- 앱카드 -->
+45        <package android:name="kvp.jjy.MispAndroid320" /> <!-- BC 페이북 -->
+45-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:45:9-58
+45-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:45:18-55
+46        <package android:name="com.kbcard.kbkookmincard" /> <!-- 국민카드 -->
+46-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:46:9-60
+46-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:46:18-57
+47        <package android:name="com.kbcard.cxh.appcard" /> <!-- 국민카드 -->
+47-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:47:9-58
+47-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:47:18-55
+48        <package android:name="com.kbstar.liivbank" /> <!-- 국민 리브 -->
+48-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:48:9-55
+48-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:48:18-52
+49        <package android:name="com.kbstar.reboot" /> <!-- 국민 new 리브 -->
+49-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:49:9-53
+49-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:49:18-50
+50        <package android:name="com.samsung.android.spay" /> <!-- 삼성페이 -->
+50-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:50:9-60
+50-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:50:18-57
+51        <package android:name="com.samsung.android.spaylite" /> <!-- 삼성페이 미니 -->
+51-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:51:9-64
+51-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:51:18-61
+52        <package android:name="com.lge.lgpay" /> <!-- 엘지페이 -->
+52-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:52:9-49
+52-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:52:18-46
+53        <package android:name="com.hanaskcard.paycla" /> <!-- 하나카드 -->
+53-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:53:9-57
+53-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:53:18-54
+54        <package android:name="kr.co.hanamembers.hmscustomer" /> <!-- 하나카드(멤버스결제) -->
+54-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:54:9-65
+54-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:54:18-62
+55        <package android:name="com.lcacApp" /> <!-- 롯데카드 -->
+55-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:55:9-47
+55-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:55:18-44
+56        <package android:name="kr.co.samsungcard.mpocket" /> <!-- 삼성카드 -->
+56-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:56:9-61
+56-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:56:18-58
+57        <package android:name="com.shcard.smartpay" /> <!-- 신한카드 -->
+57-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:57:9-55
+57-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:57:18-52
+58        <package android:name="com.shinhancard.smartshinhan" /> <!-- 신한카드 (ARS/일반결제/Smart결제) -->
+58-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:58:9-64
+58-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:58:18-61
+59        <package android:name="com.hyundaicard.appcard" /> <!-- 현대카드 -->
+59-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:59:9-59
+59-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:59:18-56
+60        <package android:name="nh.smart.nhallonepay" /> <!-- 농협카드 -->
+60-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:60:9-56
+60-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:60:18-53
+61        <package android:name="com.wooricard.wpay" /> <!-- 우리카드 -->
+61-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:61:9-54
+61-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:61:18-51
+62        <package android:name="com.wooricard.smartapp" /> <!-- 우리 WON 카드 -->
+62-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:62:9-58
+62-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:62:18-55
+63        <package android:name="com.wooribank.smart.npib" /> <!-- 우리 WON 뱅킹 -->
+63-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:63:9-60
+63-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:63:18-57
+64        <package android:name="kr.co.citibank.citimobile" /> <!-- 씨티카드 -->
+64-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:64:9-61
+64-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:64:18-58
+65
+66
+67        <!-- 계좌이체 -->
+68        <package android:name="com.kftc.bankpay.android" /> <!-- 뱅크페이 -->
+68-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:68:9-60
+68-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:68:18-57
+69        <package android:name="com.kbankwith.smartbank" /> <!-- 케이뱅크 -->
+69-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:69:9-59
+69-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:69:18-56
+70        <package android:name="com.knb.psb" /> <!-- BNK 경남은행 모바일뱅킹 -->
+70-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:70:9-47
+70-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:70:18-44
+71        <package android:name="kr.co.kfcc.mobilebank" /> <!-- MG 새마을금고 -->
+71-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:71:9-57
+71-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:71:18-54
+72        <package android:name="com.nh.cashcardapp" /> <!-- NH앱캐시 -->
+72-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:72:9-54
+72-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:72:18-51
+73
+74
+75        <!-- 공인인증(신용카드) -->
+76        <package android:name="com.hanaskcard.rocomo.potal" /> <!-- 하나카드 -->
+76-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:76:9-63
+76-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:76:18-60
+77        <package android:name="com.lumensoft.touchenappfree" /> <!-- 현대카드 -->
+77-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:77:9-64
+77-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:77:18-61
+78
+79
+80        <!-- 보안앱 -->
+81        <package android:name="com.TouchEn.mVaccine.webs" /> <!-- 신한, 씨티 -->
+81-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:81:9-61
+81-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:81:18-58
+82        <package android:name="kr.co.shiftworks.vguardweb" /> <!-- 삼성 -->
+82-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:82:9-62
+82-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:82:18-59
+83        <package android:name="com.ahnlab.v3mobileplus" /> <!-- 하나, 농협, 우리, 국민 리브 -->
+83-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:83:9-59
+83-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:83:18-56
+84
+85
+86        <!-- 휴대폰 결제 -->
+87        <package android:name="com.kt.ktauth" /> <!-- KT 본인인증 -->
+87-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:87:9-49
+87-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:87:18-46
+88        <package android:name="kr.danal.app.damoum" /> <!-- 다모음 -->
+88-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:88:9-55
+88-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:88:18-52
+89        <package android:name="uplus.membership" /> <!-- U+ 멤버스 -->
+89-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:89:9-52
+89-->[com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:89:18-49
+90    </queries>
+91
+92    <uses-permission android:name="android.permission.WAKE_LOCK" />
+92-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+92-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+93    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+93-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+93-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+94    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+94-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+94-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+95
+96    <application
+96-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:8:5-45:19
+97        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+97-->[androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+98        android:debuggable="true"
+99        android:extractNativeLibs="false"
+100        android:icon="@mipmap/ic_launcher"
+100-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:9:9-43
+101        android:label="@string/app_name"
+101-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:10:9-41
+102        android:roundIcon="@mipmap/ic_launcher_round"
+102-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:11:9-54
+103        android:supportsRtl="true"
+103-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:12:9-35
+104        android:theme="@style/Theme.N1_project"
+104-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:13:9-48
+105        android:usesCleartextTraffic="true" >
+105-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:14:9-44
+106        <meta-data
+106-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:16:9-18:48
+107            android:name="com.google.android.actions"
+107-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:17:13-54
+108            android:resource="@xml/chbutton" />
+108-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:18:13-45
+109
+110        <activity
+110-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:20:9-29:20
+111            android:name="com.example.n1_project.SplashActivity"
+111-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:21:13-43
+112            android:exported="true"
+112-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:22:13-36
+113            android:theme="@style/SplashTheme" >
+113-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:23:13-47
+114            <intent-filter>
+114-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:24:13-28:29
+115                <action android:name="android.intent.action.MAIN" />
+115-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:17-69
+115-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:25-66
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:17-77
+117-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:27-74
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:9-32:39
+121            android:name="com.example.n1_project.MainActivity"
+121-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:31:13-41
+122            android:exported="true" />
+122-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:32:13-36
+123        <activity android:name="com.example.n1_project.LoginActivity" />
+123-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:9-51
+123-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:19-48
+124        <activity android:name="com.example.n1_project.SignUpActivity" />
+124-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:9-52
+124-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:19-49
+125        <activity
+125-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:35:9-37:40
+126            android:name="com.example.n1_project.Teammake"
+126-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:13-37
+127            android:exported="false" />
+127-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:13-37
+128        <activity android:name="com.example.n1_project.NativeActivity" />
+128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:9-52
+128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:19-49
+129        <activity android:name="com.example.n1_project.WebAppActivity" />
+129-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:9-52
+129-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:19-49
+130        <activity android:name="com.example.n1_project.option" />
+130-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:9-43
+130-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:19-41
+131        <activity android:name="com.example.n1_project.menu" />
+131-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:9-41
+131-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:19-39
+132        <activity android:name="com.example.n1_project.menu2" />
+132-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:9-42
+132-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:19-40
+133        <activity android:name="com.example.n1_project.menu" />
+133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:9-41
+133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:19-39
+134        <activity android:name="com.example.n1_project.option" />
+134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:9-43
+134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:19-41
+135        <activity
+135-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+136            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+136-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+142-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+145-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+146
+147                <data
+147-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+150                    android:scheme="genericidp" />
+150-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+151            </intent-filter>
+152        </activity>
+153        <activity
+153-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+154            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+154-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+155            android:excludeFromRecents="true"
+155-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+156            android:exported="true"
+156-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+157            android:launchMode="singleTask"
+157-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+158-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+159            <intent-filter>
+159-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+160                <action android:name="android.intent.action.VIEW" />
+160-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+160-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+163                <category android:name="android.intent.category.BROWSABLE" />
+163-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+163-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+164
+165                <data
+165-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+166                    android:host="firebase.auth"
+166-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+167                    android:path="/"
+167-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+168                    android:scheme="recaptcha" />
+168-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+169            </intent-filter>
+170        </activity>
+171
+172        <service
+172-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+173            android:name="com.google.firebase.components.ComponentDiscoveryService"
+173-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+175            android:exported="false" >
+175-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+176            <meta-data
+176-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+177                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+177-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+180                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+180-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+183                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+183-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+185            <meta-data
+185-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+186                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+186-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+189                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+189-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+191        </service>
+192
+193        <provider
+193-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+194            android:name="com.google.firebase.provider.FirebaseInitProvider"
+194-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+195            android:authorities="com.example.n1_project.firebaseinitprovider"
+195-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+197            android:exported="false"
+197-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+198            android:initOrder="100" />
+198-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+199
+200        <activity
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+201            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+204
+205        <receiver
+205-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+206            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+206-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+208            android:exported="false" >
+208-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+209        </receiver>
+210
+211        <service
+211-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+212            android:name="com.google.android.gms.measurement.AppMeasurementService"
+212-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+213            android:enabled="true"
+213-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+214            android:exported="false" />
+214-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+215        <service
+215-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+216            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+216-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+219            android:permission="android.permission.BIND_JOB_SERVICE" />
+219-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+224
+225        <provider
+225-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+226            android:name="androidx.startup.InitializationProvider"
+226-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+227            android:authorities="com.example.n1_project.androidx-startup"
+227-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+228            android:exported="false" >
+228-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+229            <meta-data
+229-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+230                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+230-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+231                android:value="androidx.startup" />
+231-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+232            <meta-data
+232-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+233                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+233-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+234                android:value="androidx.startup" />
+234-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+235        </provider>
+236    </application>
+237
+238</manifest>

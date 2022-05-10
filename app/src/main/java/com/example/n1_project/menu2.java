@@ -2,6 +2,7 @@ package com.example.n1_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +17,11 @@ public class menu2 extends AppCompatActivity{
     private TextView tvCount;
     private int count=0;
 
+    public void clickBtn(View view){
+
+        Intent intent = new Intent(menu2.this,menu.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

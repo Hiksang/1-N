@@ -40,6 +40,8 @@
         <activity android:name=".option"/>
         <activity android:name=".menu"/>
         <activity android:name=".menu2"/>
+        <activity android:name=".menu"/>
+        <activity android:name=".option"/>
     </application>
 
 </manifest>

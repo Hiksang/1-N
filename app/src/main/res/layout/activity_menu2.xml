@@ -50,5 +50,15 @@
             tools:layout_editor_absoluteX="252dp"
             tools:layout_editor_absoluteY="461dp"/>
 
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickBtn"
+            android:text="선택완료"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="150dp" />
+
     </LinearLayout>
 </LinearLayout>
