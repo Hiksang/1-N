@@ -1,6 +1,7 @@
 package com.example.n1_project;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -119,7 +120,7 @@ public class NativeActivity extends AppCompatActivity {
 
         Payload payload = new Payload();
         payload.setApplicationId(application_id)
-                .setOrderName("부트페이 결제테스트")
+                .setOrderName("1/N 결제테스트")
                 .setPg(pg)
                 .setOrderId("1234")
                 .setMethod(method)
@@ -234,6 +235,9 @@ public class NativeActivity extends AppCompatActivity {
                     @Override
                     public void onDone(String data) {
                         Log.d("done", data);
+
+                        Intent intent = new Intent(NativeActivity.this,SignUpActivity.class);
+                        startActivity(intent);
                     }
                 }).requestPayment();
     }

@@ -101,6 +101,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.N1_project"
         android:usesCleartextTraffic="true" >
         <meta-data
@@ -130,8 +131,6 @@
         <activity android:name="com.example.n1_project.option" />
         <activity android:name="com.example.n1_project.menu" />
         <activity android:name="com.example.n1_project.menu2" />
-        <activity android:name="com.example.n1_project.menu" />
-        <activity android:name="com.example.n1_project.option" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

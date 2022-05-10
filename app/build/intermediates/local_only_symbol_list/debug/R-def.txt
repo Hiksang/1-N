@@ -39,7 +39,6 @@ id btn_2
 id btn_3
 id btn_4
 id btn_add
-id btn_back
 id btn_create
 id btn_minus
 id edit_non_tax
