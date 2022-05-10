@@ -21,10 +21,4 @@
         android:text="짬뽕"
         android:textAllCaps="false"
         android:onClick="clickBtn"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="선택완료"
-        android:textAllCaps="false"
-        android:onClick="clickBtnn"/>
 </LinearLayout>

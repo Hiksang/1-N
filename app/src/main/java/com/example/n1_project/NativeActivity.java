@@ -119,7 +119,7 @@ public class NativeActivity extends AppCompatActivity {
 
         Payload payload = new Payload();
         payload.setApplicationId(application_id)
-                .setOrderName("1/N 결제테스트")
+                .setOrderName("부트페이 결제테스트")
                 .setPg(pg)
                 .setOrderId("1234")
                 .setMethod(method)

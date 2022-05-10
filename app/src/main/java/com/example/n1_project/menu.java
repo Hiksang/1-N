@@ -23,11 +23,6 @@ public class menu extends AppCompatActivity {
         Intent intent = new Intent(menu.this,menu2.class);
         startActivity(intent);
     }
-    public void clickBtnn(View view){
-
-        Intent intent = new Intent(menu.this,option.class);
-        startActivity(intent);
-    }
 }
 
 
