@@ -3248,6 +3248,7 @@ layout activity_menu
 layout activity_menu2
 layout activity_native
 layout activity_option
+layout activity_option2
 layout activity_sign_up
 layout activity_teammake
 layout activity_webapp
