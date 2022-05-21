@@ -19,7 +19,6 @@ import com.google.firebase.database.FirebaseDatabase;
 public class option extends AppCompatActivity {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = database.getReference();
-    private Button add_Btn1;
     private Button btnAdd, btnMinus;
     private TextView tvCount;
     private int count=0;
@@ -50,14 +49,7 @@ public class option extends AppCompatActivity {
             }
         });
 
-        add_Btn1 = findViewById(R.id.add_btn1);
-        add_Btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(option.this,menu.class);
-                startActivity(intent);
-            }
-        });
+
         TextView tv_result = (TextView)findViewById(R.id.tv_result);
         TextView tv_result2 = (TextView)findViewById(R.id.tv_result2);
         TextView tv_result3 = (TextView)findViewById(R.id.tv_result3);
