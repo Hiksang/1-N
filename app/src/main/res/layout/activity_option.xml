@@ -74,7 +74,7 @@
 
     <Button
         android:id="@+id/add_btn1"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="-230dp"
         android:layout_marginTop="500dp"
@@ -100,7 +100,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-300dp"
+        android:layout_marginLeft="-200dp"
         android:layout_marginTop="300dp"
         android:text="짜장면 개수"
         android:textColor="#000000"
