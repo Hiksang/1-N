@@ -1,0 +1,923 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:2:1-92:12
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-91:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/hiksang/.gradle/caches/transforms-3/5891868fd59e113a31a3225ab274ef7d/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hiksang/.gradle/caches/transforms-3/724a4ee5488f17c8102ca35a60a0c462/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/9f50d9d553540364b85ab7f4289a8e1a/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/0883144fba1fe0dba12306c6e7f5aa81/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/hiksang/.gradle/caches/transforms-3/de6bc2c8e2c6e8d6cfc3780c49efd7c7/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/f3e27df42bae17bc9727600d979bb09c/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/hiksang/.gradle/caches/transforms-3/6aedb0791860e685c6ea6c29058048e8/transformed/grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] /Users/hiksang/.gradle/caches/transforms-3/ffd9a3bcbd983703e3ca477257ad4025/transformed/core-splashscreen-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/hiksang/.gradle/caches/transforms-3/f501cb6268444bb3381a7815fb68516e/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hiksang/.gradle/caches/transforms-3/dcacbefecd91e9a34cddcdd2dba79f3f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/1a8f539b1aaad8507d26239cba055a9f/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/hiksang/.gradle/caches/transforms-3/71cf9c73950b5d47d5617b9f5c562e20/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/188bbe4328a616bc77c493d81052621e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8c50a28f3b4e53d298dae606ac5b7b96/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/609192ac61b9ec993d563ee45ac303bd/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/600e01e0c8bb05cdb7914824847f1d7f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8943a043c5afe2b90ae3202ff2a6fd3e/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/hiksang/.gradle/caches/transforms-3/7e5d2dcabc4bc70e871bb50e0674badd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/hiksang/.gradle/caches/transforms-3/9f723293758539ce1ad6bc2b4c959cb9/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hiksang/.gradle/caches/transforms-3/b356acdec14f9148290a163541969cc9/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/hiksang/.gradle/caches/transforms-3/bb0cf52556a794eda498ce6244c6ac0f/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/70487d777d22b443be25541bc62ce432/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f41c9c2e8b43d5f2736b614babd41840/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda3a19987a962d6a0821a40646c06eb/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/e250da51fb6848a37f922a4d03ffc938/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/5f15a557fbf58733ce640cf10c09e572/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/90197e644885c3917713be60b85b3b16/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/8b23072cf3808108f11caafe74cb6532/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hiksang/.gradle/caches/transforms-3/598ab1c387e09deca2da64b1b9d16504/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/c2207103386c5c11227e8f860eac5074/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/591681d12fc704b2f254f7f99c880c72/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/6f7ddc448fff68fc0668d56156947568/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/7c52b13cf7473c03d205ef0af0b09519/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/62ed2e6093303208fc5da8efcf4cf52e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/cce39acc3ae2de9231e074bddc7047c6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/37acfef9f0583a20b68fa8072fad26aa/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/13818ce6fb632095bf106537b741a386/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f73c198c3f4f80db9f9664f5123dd2e8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/d1d9e39e09031cd1ce8245a671658c3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/0e80e7df278af343006da028b04d7853/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/593cf5a7a7dc72c57e09f1dc108b47b2/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/539ccc00201aaca1886bb15975b5af6a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/33288fc02e1ff2ffc367f3b5e8c68bb6/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/dc70b4a2bd806099446391fc4d0314c2/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/04c0a3bfee7c1d37b0ee40091f7d2f7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/511769f02bc2a8b00c4857360c9b3082/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/77bdc19509efb4ded4af0cd71894812a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hiksang/.gradle/caches/transforms-3/de2c20cdbc4324c6bac9d29448779c07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/f0b384eeec54baec619298638983ae2b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/cacab194a0b94dbc2ac318c4d5e95409/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hiksang/.gradle/caches/transforms-3/acd8aa404d207cb5c33d661d318b29cc/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/a41c486a10592d6faac25265d3a3ffa6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/c76f88a9e833665136ce9147935dcb55/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/da71b3dc0e4ff888c37f965e1710c945/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/0644bfaa2846adc0fde070757687f081/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/a5d4a69169b139c07fb925627e827fd5/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.pddstudio:encrypted-preferences:1.3.0] /Users/hiksang/.gradle/caches/transforms-3/761c1c6980ef97e37a2c2f43b98e8334/transformed/encrypted-preferences-1.3.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.scottyab:aescrypt:0.0.1] /Users/hiksang/.gradle/caches/transforms-3/b14b4598f1e900868e38e1027800596a/transformed/aescrypt-0.0.1/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:10:5-67
+MERGED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:10:5-67
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/hiksang/.gradle/caches/transforms-3/6aedb0791860e685c6ea6c29058048e8/transformed/grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/hiksang/.gradle/caches/transforms-3/6aedb0791860e685c6ea6c29058048e8/transformed/grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:8:5-43:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/hiksang/.gradle/caches/transforms-3/5891868fd59e113a31a3225ab274ef7d/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/hiksang/.gradle/caches/transforms-3/5891868fd59e113a31a3225ab274ef7d/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hiksang/.gradle/caches/transforms-3/724a4ee5488f17c8102ca35a60a0c462/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hiksang/.gradle/caches/transforms-3/724a4ee5488f17c8102ca35a60a0c462/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/f3e27df42bae17bc9727600d979bb09c/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/f3e27df42bae17bc9727600d979bb09c/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/hiksang/.gradle/caches/transforms-3/f501cb6268444bb3381a7815fb68516e/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/hiksang/.gradle/caches/transforms-3/f501cb6268444bb3381a7815fb68516e/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hiksang/.gradle/caches/transforms-3/dcacbefecd91e9a34cddcdd2dba79f3f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hiksang/.gradle/caches/transforms-3/dcacbefecd91e9a34cddcdd2dba79f3f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/188bbe4328a616bc77c493d81052621e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/188bbe4328a616bc77c493d81052621e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8c50a28f3b4e53d298dae606ac5b7b96/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8c50a28f3b4e53d298dae606ac5b7b96/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/600e01e0c8bb05cdb7914824847f1d7f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/600e01e0c8bb05cdb7914824847f1d7f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8943a043c5afe2b90ae3202ff2a6fd3e/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8943a043c5afe2b90ae3202ff2a6fd3e/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/hiksang/.gradle/caches/transforms-3/7e5d2dcabc4bc70e871bb50e0674badd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/hiksang/.gradle/caches/transforms-3/7e5d2dcabc4bc70e871bb50e0674badd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/hiksang/.gradle/caches/transforms-3/9f723293758539ce1ad6bc2b4c959cb9/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/hiksang/.gradle/caches/transforms-3/9f723293758539ce1ad6bc2b4c959cb9/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/511769f02bc2a8b00c4857360c9b3082/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/511769f02bc2a8b00c4857360c9b3082/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.scottyab:aescrypt:0.0.1] /Users/hiksang/.gradle/caches/transforms-3/b14b4598f1e900868e38e1027800596a/transformed/aescrypt-0.0.1/AndroidManifest.xml:10:5-20
+MERGED from [com.scottyab:aescrypt:0.0.1] /Users/hiksang/.gradle/caches/transforms-3/b14b4598f1e900868e38e1027800596a/transformed/aescrypt-0.0.1/AndroidManifest.xml:10:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:13:9-48
+	android:usesCleartextTraffic
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:14:9-44
+meta-data#com.google.android.actions
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:16:9-18:48
+	android:resource
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:17:13-54
+activity#com.example.n1_project.SplashActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:exported
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:22:13-36
+	android:theme
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:23:13-47
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:21:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.n1_project.MainActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:9-32:39
+	android:exported
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:31:13-41
+activity#com.example.n1_project.LoginActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:19-48
+activity#com.example.n1_project.SignUpActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:9-52
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:19-49
+activity#com.example.n1_project.Teammake
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:13-37
+activity#com.example.n1_project.NativeActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:9-52
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:19-49
+activity#com.example.n1_project.WebAppActivity
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:9-52
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:19-49
+activity#com.example.n1_project.option
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:9-43
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:19-41
+activity#com.example.n1_project.menu
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:9-41
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:19-39
+activity#com.example.n1_project.menu2
+ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:9-42
+	android:name
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:19-40
+uses-sdk
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+MERGED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/hiksang/.gradle/caches/transforms-3/5891868fd59e113a31a3225ab274ef7d/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/hiksang/.gradle/caches/transforms-3/5891868fd59e113a31a3225ab274ef7d/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hiksang/.gradle/caches/transforms-3/724a4ee5488f17c8102ca35a60a0c462/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hiksang/.gradle/caches/transforms-3/724a4ee5488f17c8102ca35a60a0c462/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/9f50d9d553540364b85ab7f4289a8e1a/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/9f50d9d553540364b85ab7f4289a8e1a/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/0883144fba1fe0dba12306c6e7f5aa81/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/0883144fba1fe0dba12306c6e7f5aa81/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/hiksang/.gradle/caches/transforms-3/de6bc2c8e2c6e8d6cfc3780c49efd7c7/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/hiksang/.gradle/caches/transforms-3/de6bc2c8e2c6e8d6cfc3780c49efd7c7/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/f3e27df42bae17bc9727600d979bb09c/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/f3e27df42bae17bc9727600d979bb09c/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/hiksang/.gradle/caches/transforms-3/6aedb0791860e685c6ea6c29058048e8/transformed/grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/hiksang/.gradle/caches/transforms-3/6aedb0791860e685c6ea6c29058048e8/transformed/grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] /Users/hiksang/.gradle/caches/transforms-3/ffd9a3bcbd983703e3ca477257ad4025/transformed/core-splashscreen-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta01] /Users/hiksang/.gradle/caches/transforms-3/ffd9a3bcbd983703e3ca477257ad4025/transformed/core-splashscreen-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/hiksang/.gradle/caches/transforms-3/f501cb6268444bb3381a7815fb68516e/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/hiksang/.gradle/caches/transforms-3/f501cb6268444bb3381a7815fb68516e/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hiksang/.gradle/caches/transforms-3/dcacbefecd91e9a34cddcdd2dba79f3f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hiksang/.gradle/caches/transforms-3/dcacbefecd91e9a34cddcdd2dba79f3f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/1a8f539b1aaad8507d26239cba055a9f/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/1a8f539b1aaad8507d26239cba055a9f/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/hiksang/.gradle/caches/transforms-3/71cf9c73950b5d47d5617b9f5c562e20/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/hiksang/.gradle/caches/transforms-3/71cf9c73950b5d47d5617b9f5c562e20/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/188bbe4328a616bc77c493d81052621e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/188bbe4328a616bc77c493d81052621e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8c50a28f3b4e53d298dae606ac5b7b96/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8c50a28f3b4e53d298dae606ac5b7b96/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/609192ac61b9ec993d563ee45ac303bd/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/609192ac61b9ec993d563ee45ac303bd/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/600e01e0c8bb05cdb7914824847f1d7f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/600e01e0c8bb05cdb7914824847f1d7f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8943a043c5afe2b90ae3202ff2a6fd3e/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8943a043c5afe2b90ae3202ff2a6fd3e/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/hiksang/.gradle/caches/transforms-3/7e5d2dcabc4bc70e871bb50e0674badd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/hiksang/.gradle/caches/transforms-3/7e5d2dcabc4bc70e871bb50e0674badd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/hiksang/.gradle/caches/transforms-3/9f723293758539ce1ad6bc2b4c959cb9/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/hiksang/.gradle/caches/transforms-3/9f723293758539ce1ad6bc2b4c959cb9/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hiksang/.gradle/caches/transforms-3/b356acdec14f9148290a163541969cc9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/hiksang/.gradle/caches/transforms-3/b356acdec14f9148290a163541969cc9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/hiksang/.gradle/caches/transforms-3/bb0cf52556a794eda498ce6244c6ac0f/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/hiksang/.gradle/caches/transforms-3/bb0cf52556a794eda498ce6244c6ac0f/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/70487d777d22b443be25541bc62ce432/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/hiksang/.gradle/caches/transforms-3/70487d777d22b443be25541bc62ce432/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f41c9c2e8b43d5f2736b614babd41840/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f41c9c2e8b43d5f2736b614babd41840/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda3a19987a962d6a0821a40646c06eb/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda3a19987a962d6a0821a40646c06eb/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/e250da51fb6848a37f922a4d03ffc938/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/e250da51fb6848a37f922a4d03ffc938/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/5f15a557fbf58733ce640cf10c09e572/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/5f15a557fbf58733ce640cf10c09e572/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/90197e644885c3917713be60b85b3b16/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/90197e644885c3917713be60b85b3b16/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/8b23072cf3808108f11caafe74cb6532/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/8b23072cf3808108f11caafe74cb6532/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/hiksang/.gradle/caches/transforms-3/598ab1c387e09deca2da64b1b9d16504/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hiksang/.gradle/caches/transforms-3/598ab1c387e09deca2da64b1b9d16504/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/c2207103386c5c11227e8f860eac5074/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/c2207103386c5c11227e8f860eac5074/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/591681d12fc704b2f254f7f99c880c72/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/591681d12fc704b2f254f7f99c880c72/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/6f7ddc448fff68fc0668d56156947568/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/6f7ddc448fff68fc0668d56156947568/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/7c52b13cf7473c03d205ef0af0b09519/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/7c52b13cf7473c03d205ef0af0b09519/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/62ed2e6093303208fc5da8efcf4cf52e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/62ed2e6093303208fc5da8efcf4cf52e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/cce39acc3ae2de9231e074bddc7047c6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/cce39acc3ae2de9231e074bddc7047c6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/37acfef9f0583a20b68fa8072fad26aa/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/37acfef9f0583a20b68fa8072fad26aa/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/13818ce6fb632095bf106537b741a386/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/13818ce6fb632095bf106537b741a386/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f73c198c3f4f80db9f9664f5123dd2e8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/f73c198c3f4f80db9f9664f5123dd2e8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/hiksang/.gradle/caches/transforms-3/926b0997389cb9a65b04fab0bcd6d43a/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/d1d9e39e09031cd1ce8245a671658c3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/d1d9e39e09031cd1ce8245a671658c3f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/0e80e7df278af343006da028b04d7853/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/0e80e7df278af343006da028b04d7853/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/593cf5a7a7dc72c57e09f1dc108b47b2/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/593cf5a7a7dc72c57e09f1dc108b47b2/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/539ccc00201aaca1886bb15975b5af6a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/539ccc00201aaca1886bb15975b5af6a/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/33288fc02e1ff2ffc367f3b5e8c68bb6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/33288fc02e1ff2ffc367f3b5e8c68bb6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/dc70b4a2bd806099446391fc4d0314c2/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/hiksang/.gradle/caches/transforms-3/dc70b4a2bd806099446391fc4d0314c2/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/04c0a3bfee7c1d37b0ee40091f7d2f7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/04c0a3bfee7c1d37b0ee40091f7d2f7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/511769f02bc2a8b00c4857360c9b3082/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hiksang/.gradle/caches/transforms-3/511769f02bc2a8b00c4857360c9b3082/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/77bdc19509efb4ded4af0cd71894812a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/77bdc19509efb4ded4af0cd71894812a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hiksang/.gradle/caches/transforms-3/de2c20cdbc4324c6bac9d29448779c07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hiksang/.gradle/caches/transforms-3/de2c20cdbc4324c6bac9d29448779c07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/f0b384eeec54baec619298638983ae2b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/hiksang/.gradle/caches/transforms-3/f0b384eeec54baec619298638983ae2b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/cacab194a0b94dbc2ac318c4d5e95409/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/cacab194a0b94dbc2ac318c4d5e95409/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hiksang/.gradle/caches/transforms-3/acd8aa404d207cb5c33d661d318b29cc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hiksang/.gradle/caches/transforms-3/acd8aa404d207cb5c33d661d318b29cc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/a41c486a10592d6faac25265d3a3ffa6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/a41c486a10592d6faac25265d3a3ffa6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/c76f88a9e833665136ce9147935dcb55/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/c76f88a9e833665136ce9147935dcb55/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/da71b3dc0e4ff888c37f965e1710c945/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/da71b3dc0e4ff888c37f965e1710c945/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/0644bfaa2846adc0fde070757687f081/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hiksang/.gradle/caches/transforms-3/0644bfaa2846adc0fde070757687f081/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/a5d4a69169b139c07fb925627e827fd5/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/a5d4a69169b139c07fb925627e827fd5/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pddstudio:encrypted-preferences:1.3.0] /Users/hiksang/.gradle/caches/transforms-3/761c1c6980ef97e37a2c2f43b98e8334/transformed/encrypted-preferences-1.3.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.pddstudio:encrypted-preferences:1.3.0] /Users/hiksang/.gradle/caches/transforms-3/761c1c6980ef97e37a2c2f43b98e8334/transformed/encrypted-preferences-1.3.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.scottyab:aescrypt:0.0.1] /Users/hiksang/.gradle/caches/transforms-3/b14b4598f1e900868e38e1027800596a/transformed/aescrypt-0.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.scottyab:aescrypt:0.0.1] /Users/hiksang/.gradle/caches/transforms-3/b14b4598f1e900868e38e1027800596a/transformed/aescrypt-0.0.1/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:11:5-75
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-75
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:11:22-72
+queries
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:17:5-90:15
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-89:15
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-89:15
+package#com.nhnent.payapp
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:31:9-53
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-53
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-53
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:31:18-50
+package#com.lottemembers.android
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:32:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-60
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:32:18-57
+package#com.ssg.serviceapp.android.egiftcertificate
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:33:9-79
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-79
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-79
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:33:18-76
+package#com.inicis.kpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:34:9-51
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-51
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:34:18-48
+package#com.tmoney.tmpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:35:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-52
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:35:18-49
+package#viva.republica.toss
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:36:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-55
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:36:18-52
+package#com.kakao.talk
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:37:9-50
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-50
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-50
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:37:18-47
+package#com.mysmilepay.app
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:38:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-54
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:38:18-51
+package#com.lotte.lpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:39:9-50
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-50
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-50
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:39:18-47
+package#finance.chai.app
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:40:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-52
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:40:18-49
+package#com.nhn.android.search
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:41:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-58
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:41:18-55
+package#kvp.jjy.MispAndroid320
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:45:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-58
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:45:18-55
+package#com.kbcard.kbkookmincard
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:46:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-60
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:46:18-57
+package#com.kbcard.cxh.appcard
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:47:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-58
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:47:18-55
+package#com.kbstar.liivbank
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:48:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-55
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:48:18-52
+package#com.kbstar.reboot
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:49:9-53
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-53
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-53
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:49:18-50
+package#com.samsung.android.spay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:50:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:9-60
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:50:18-57
+package#com.samsung.android.spaylite
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:51:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:9-64
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:51:18-61
+package#com.lge.lgpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:52:9-49
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-49
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-49
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:52:18-46
+package#com.hanaskcard.paycla
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:53:9-57
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-57
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-57
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:53:18-54
+package#kr.co.hanamembers.hmscustomer
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:54:9-65
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:9-65
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:9-65
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:54:18-62
+package#com.lcacApp
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:55:9-47
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:54:9-47
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:54:9-47
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:55:18-44
+package#kr.co.samsungcard.mpocket
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:56:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:55:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:55:9-61
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:56:18-58
+package#com.shcard.smartpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:57:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:56:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:56:9-55
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:57:18-52
+package#com.shinhancard.smartshinhan
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:58:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:57:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:57:9-64
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:58:18-61
+package#com.hyundaicard.appcard
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:59:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:58:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:58:9-59
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:59:18-56
+package#nh.smart.nhallonepay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:60:9-56
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:59:9-56
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:59:9-56
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:60:18-53
+package#com.wooricard.wpay
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:61:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:60:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:60:9-54
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:61:18-51
+package#com.wooricard.smartapp
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:62:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:61:9-58
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:61:9-58
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:62:18-55
+package#com.wooribank.smart.npib
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:63:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:62:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:62:9-60
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:63:18-57
+package#kr.co.citibank.citimobile
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:64:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:63:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:63:9-61
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:64:18-58
+package#com.kftc.bankpay.android
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:68:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:67:9-60
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:67:9-60
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:68:18-57
+package#com.kbankwith.smartbank
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:69:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:68:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:68:9-59
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:69:18-56
+package#com.knb.psb
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:70:9-47
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:9-47
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:9-47
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:70:18-44
+package#kr.co.kfcc.mobilebank
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:71:9-57
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:70:9-57
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:70:9-57
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:71:18-54
+package#com.nh.cashcardapp
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:72:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:9-54
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:9-54
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:72:18-51
+package#com.hanaskcard.rocomo.potal
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:76:9-63
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:75:9-63
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:75:9-63
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:76:18-60
+package#com.lumensoft.touchenappfree
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:77:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:76:9-64
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:76:9-64
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:77:18-61
+package#com.TouchEn.mVaccine.webs
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:81:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:80:9-61
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:80:9-61
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:81:18-58
+package#kr.co.shiftworks.vguardweb
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:82:9-62
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:81:9-62
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:81:9-62
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:82:18-59
+package#com.ahnlab.v3mobileplus
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:83:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:9-59
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:9-59
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:83:18-56
+package#com.kt.ktauth
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:87:9-49
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:86:9-49
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:86:9-49
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:87:18-46
+package#kr.danal.app.damoum
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:88:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:87:9-55
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:87:9-55
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:88:18-52
+package#uplus.membership
+ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:89:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:88:9-52
+MERGED from [:core] /Users/hiksang/Documents/GitHub/1-N/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:88:9-52
+	android:name
+		ADDED from [com.github.bootpay:android:2.0.1] /Users/hiksang/.gradle/caches/transforms-3/a508990b455de964ab66e7d9da59bcd8/transformed/android-2.0.1/AndroidManifest.xml:89:18-49
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/3542902a82ceb1a86c85767ab7c90c65/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/5e1b73a980f080e54a78cff993b62e1f/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/8460f4fb1a08fc858209b9f48870bd9d/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/988bb586090e5365d4f367f5bb8bda6f/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
