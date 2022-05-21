@@ -70,5 +70,18 @@
         android:layout_marginTop="500dp"
         android:onClick="goNativeActivity"
         android:text="결제"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1_up"
+        android:text="+"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2_down"
+        android:text="-"
+        />
+
 
 </LinearLayout>

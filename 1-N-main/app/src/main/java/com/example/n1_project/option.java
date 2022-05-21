@@ -86,9 +86,9 @@ public class option extends AppCompatActivity {
         });
     }
 
-    public void addUser(String rn,String time, String location,String uid) {
+    public void addUser(String rn,String time, String location, String uid) {
         User user = new User(rn,time,location,uid);
-        databaseReference.child("User").push().child("uid").setValue(user);
+        databaseReference.child("User").child(uid).push().setValue(user);
     }
     public void goNativeActivity(View v) {
         Intent intent = new Intent(getApplicationContext(), NativeActivity.class);
