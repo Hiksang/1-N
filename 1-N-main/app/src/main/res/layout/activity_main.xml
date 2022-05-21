@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:drawableBottom="@drawable/chinese"
+        android:drawablePadding="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        app:iconPadding="0dp" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="로그아웃" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text ="내 주문"/>
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text ="장바구니"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1200dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/serch" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="⏰마감 임박⏰ "
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/japanese" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/chicken" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/korean" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/cafe" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@drawable/school" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@drawable/soup" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@drawable/pizza" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@drawable/western" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="485dp"
+        app:srcCompat="@drawable/meat" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="580dp"
+        app:srcCompat="@drawable/jokbal" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="580dp"
+        app:srcCompat="@drawable/asian" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="580dp"
+        app:srcCompat="@drawable/fastfood" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="580dp"
+        app:srcCompat="@drawable/night" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="580dp"
+        app:srcCompat="@drawable/lunchbox" />
+
+</RelativeLayout>
