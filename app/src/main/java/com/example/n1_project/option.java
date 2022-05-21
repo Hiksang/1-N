@@ -24,14 +24,11 @@ public class option extends AppCompatActivity {
     private TextView tvCount;
     private int count=0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_option);
 
-
-        // 여기부터
         tvCount = findViewById(R.id.tv_count);
         tvCount.setText(count+"");
         btnAdd = findViewById(R.id.btn_add);
@@ -52,8 +49,6 @@ public class option extends AppCompatActivity {
                 tvCount.setText(count+"");
             }
         });
-        //여기까지
-
 
         add_Btn1 = findViewById(R.id.add_btn1);
         add_Btn1.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +61,7 @@ public class option extends AppCompatActivity {
         TextView tv_result = (TextView)findViewById(R.id.tv_result);
         TextView tv_result2 = (TextView)findViewById(R.id.tv_result2);
         TextView tv_result3 = (TextView)findViewById(R.id.tv_result3);
+        TextView tv_Count = (TextView)findViewById(R.id.tv_count);
         Spinner spinner3 = (Spinner)findViewById(R.id.spinner_3);
         Spinner spinner1 = (Spinner)findViewById(R.id.spinner);
         Spinner spinner2= (Spinner)findViewById(R.id.spinner_2);
@@ -110,19 +106,16 @@ public class option extends AppCompatActivity {
             public void onClick(View view) {
 
                 //입력값 변수 담기
-                addUser(tv_result2.getText().toString(),tv_result3.getText().toString(), tv_result.getText().toString(),uid);
+                addUser(tv_result2.getText().toString(),tv_result3.getText().toString(), tv_result.getText().toString(), uid, tvCount.getText().toString());
 
             }
         });
     }
 
-    public void addUser(String rn,String time, String location, String uid) {
-        User user = new User(rn,time,location,uid);
+    public void addUser(String rn,String time, String location, String uid, String menu) {
+        User user = new User(rn,time,location,uid,menu);
 
-        String key = databaseReference.push().getKey();
-        databaseReference.child("Team").child(key).child(uid).setValue(user);
-
-        //databaseReference.child("Team").push().child(uid).setValue(user); #팀생성
+        databaseReference.child("Team").push().child(uid).setValue(user);
     }
     public void goNativeActivity(View v) {
         Intent intent = new Intent(getApplicationContext(), NativeActivity.class);
