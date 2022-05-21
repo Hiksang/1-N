@@ -115,7 +115,7 @@ public class option extends AppCompatActivity {
     public void addUser(String rn,String time, String location, String uid, String menu) {
         User user = new User(rn,time,location,uid,menu);
 
-        databaseReference.child("Team").push().child(uid).setValue(user);
+        databaseReference.child("User").push().child(uid).setValue(user);
     }
     public void goNativeActivity(View v) {
         Intent intent = new Intent(getApplicationContext(), NativeActivity.class);
