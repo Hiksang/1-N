@@ -2,10 +2,12 @@ package com.example.n1_project;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,13 +20,41 @@ public class option extends AppCompatActivity {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = database.getReference();
     private Button add_Btn1;
-
+    private Button btnAdd, btnMinus;
+    private TextView tvCount;
+    private int count=0;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_option);
+
+
+        // 여기부터
+        tvCount = findViewById(R.id.tv_count);
+        tvCount.setText(count+"");
+        btnAdd = findViewById(R.id.btn_add);
+        btnMinus = findViewById(R.id.btn_minus);
+
+        btnAdd.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                count++;
+                tvCount.setText(count+"");
+            }
+        });
+
+        btnMinus.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                count--;
+                tvCount.setText(count+"");
+            }
+        });
+        //여기까지
+
+
         add_Btn1 = findViewById(R.id.add_btn1);
         add_Btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,10 +118,15 @@ public class option extends AppCompatActivity {
 
     public void addUser(String rn,String time, String location, String uid) {
         User user = new User(rn,time,location,uid);
-        databaseReference.child("User").child(uid).push().setValue(user);
+
+        String key = databaseReference.push().getKey();
+        databaseReference.child("Team").child(key).child(uid).setValue(user);
+
+        //databaseReference.child("Team").push().child(uid).setValue(user); #팀생성
     }
     public void goNativeActivity(View v) {
         Intent intent = new Intent(getApplicationContext(), NativeActivity.class);
         startActivity(intent);
+
     }
 }
