@@ -1,6 +1,7 @@
 package com.example.n1_project;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,9 +33,27 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustormVie
 
     @Override
     public void onBindViewHolder(@NonNull CustormViewHolder holder, int position) {
+        holder.itemView.setTag(position);
         holder.tv_tm.setText(arrayList.get(position).getTime());
         holder.tv_lc.setText(arrayList.get(position).getLocation());
         holder.tv_rn.setText(arrayList.get(position).getRn());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tv_tm2 = holder.tv_tm.getText().toString();
+                String tv_lc2 = holder.tv_lc.getText().toString();
+                String tv_rn2 = holder.tv_rn.getText().toString();
+
+                Intent intent44;
+                intent44 = new Intent(context, chamga.class);
+                intent44.putExtra("tv_tm2",tv_tm2);
+                intent44.putExtra("tv_lc2",tv_lc2);
+                intent44.putExtra("tv_rn2",tv_rn2);
+                context.startActivity(intent44);
+
+
+            }
+        });
 
     }
 

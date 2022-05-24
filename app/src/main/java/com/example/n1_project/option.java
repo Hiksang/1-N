@@ -29,7 +29,7 @@ public class option extends AppCompatActivity {
         setContentView(R.layout.activity_option);
 
         tvCount = findViewById(R.id.tv_count);
-        tvCount.setText(count+"");
+        tvCount.setText(count*6000+1000+"");
         btnAdd = findViewById(R.id.btn_add);
         btnMinus = findViewById(R.id.btn_minus);
 
@@ -45,7 +45,7 @@ public class option extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count--;
-                tvCount.setText(count*6000+"");
+                tvCount.setText(count*6000+1000+"");
             }
         });
 
@@ -107,7 +107,7 @@ public class option extends AppCompatActivity {
     public void addUser(String rn,String time, String location, String uid, String menu) {
         User user = new User(rn,time,location,uid,menu);
 
-        databaseReference.child("User").child(uid).setValue(user);
+        databaseReference.child("User").child("Team_01").setValue(user);
     }
     public void goNativeActivity(View v) {
         String price3 = tvCount.getText().toString();

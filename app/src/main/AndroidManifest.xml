@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.N1_project"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".chamga"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.actions"
@@ -37,9 +40,9 @@
             android:exported="false" />
         <activity android:name=".NativeActivity" />
         <activity android:name=".WebAppActivity" />
-        <activity android:name=".option"/>
-        <activity android:name=".menu"/>
-        <activity android:name=".menu2"/>
+        <activity android:name=".option" />
+        <activity android:name=".menu" />
+        <activity android:name=".menu2" />
     </application>
 
 </manifest>
