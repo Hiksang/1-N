@@ -75,6 +75,7 @@ id spinner_method
 id spinner_pg
 id textView
 id textView2
+id textView3
 id tv_count
 id tv_lc
 id tv_result

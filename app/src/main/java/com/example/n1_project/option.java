@@ -110,7 +110,9 @@ public class option extends AppCompatActivity {
         databaseReference.child("User").child(uid).setValue(user);
     }
     public void goNativeActivity(View v) {
+        String price3 = tvCount.getText().toString();
         Intent intent = new Intent(getApplicationContext(), NativeActivity.class);
+        intent.putExtra("price1", price3);
         startActivity(intent);
 
     }

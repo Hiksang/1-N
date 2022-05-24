@@ -39,6 +39,7 @@ public class NativeActivity extends AppCompatActivity {
     EditText edit_price;
     EditText edit_non_tax;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +52,11 @@ public class NativeActivity extends AppCompatActivity {
         spinner_method = findViewById(R.id.spinner_method);
         edit_price = findViewById(R.id.edit_price);
         edit_non_tax = findViewById(R.id.edit_non_tax);
+
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        String price1 = bundle.getString("price1");
+        edit_price.setText(price1);
 
         bootpayInit();
 //        bootpayAnalyticsUserTrace();
@@ -179,15 +185,15 @@ public class NativeActivity extends AppCompatActivity {
 //        BootExtra extra = new BootExtra().setQuotas(new int[] {0,2,3});  // 일시불, 2개월, 3개월 할부 허용, 할부는 최대 12개월까지 사용됨 (5만원 이상 구매시 할부허용 범위)
         BootExtra extra = new BootExtra().setCardQuota("0,2,3");  // 일시불, 2개월, 3개월 할부 허용, 할부는 최대 12개월까지 사용됨 (5만원 이상 구매시 할부허용 범위)
         Double price = 1000d;
-//        try {
-//            price = Double.parseDouble(edit_price.getText().toString());
-//        } catch (Exception e){}
+        try {
+            price = Double.parseDouble(edit_price.getText().toString());
+        } catch (Exception e){}
 
 
 
         List<BootItem> items = new ArrayList<>();
-        BootItem item1 = new BootItem().setName("마우's 스").setId("ITEM_CODE_MOUSE").setQty(1).setPrice(500d);
-        BootItem item2 = new BootItem().setName("키보드").setId("ITEM_KEYBOARD_MOUSE").setQty(1).setPrice(500d);
+        BootItem item1 = new BootItem().setName("마우's 스").setId("ITEM_CODE_MOUSE").setQty(1).setPrice(price);
+        BootItem item2 = new BootItem().setName("키보드").setId("ITEM_KEYBOARD_MOUSE").setQty(1).setPrice(0d);
         items.add(item1);
         items.add(item2);
 
