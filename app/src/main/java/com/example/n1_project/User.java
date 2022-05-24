@@ -1,5 +1,4 @@
-    package com.example.n1_project;
-
+package com.example.n1_project;
 
 public class  User {
     private String location;
@@ -7,6 +6,7 @@ public class  User {
     private String time;
     private String uid;
     private String menu;
+
 
     public User(){}
 
