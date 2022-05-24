@@ -102,8 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="-200dp"
         android:layout_marginTop="300dp"
-        android:text="음식 금액
-"
+        android:text="결재 금액"
         android:textColor="#000000"
         android:textSize="15sp" />
 

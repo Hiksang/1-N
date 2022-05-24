@@ -45,7 +45,7 @@ public class option extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count--;
-                tvCount.setText(count*6000+"");
+                tvCount.setText(count*6000+1000+"");
             }
         });
 
