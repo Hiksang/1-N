@@ -3092,6 +3092,10 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3242,13 +3246,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chamga
 layout activity_login
 layout activity_main
 layout activity_menu
 layout activity_menu2
 layout activity_native
 layout activity_option
-layout activity_option2
 layout activity_sign_up
 layout activity_teammake
 layout activity_webapp

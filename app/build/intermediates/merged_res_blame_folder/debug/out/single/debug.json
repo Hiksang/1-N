@@ -48,6 +48,10 @@
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/drawable/cafe.jpg"
     },
     {
+        "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/layout_activity_chamga.xml.flat",
+        "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/layout/activity_chamga.xml"
+    },
+    {
         "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -94,10 +98,6 @@
     {
         "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/layout_activity_option2.xml.flat",
-        "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/layout/activity_option2.xml"
     },
     {
         "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
