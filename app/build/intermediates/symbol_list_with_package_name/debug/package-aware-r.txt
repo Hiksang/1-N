@@ -2593,7 +2593,6 @@ drawable school
 drawable serch
 drawable soup
 drawable splash
-drawable sw370x43
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2672,6 +2671,7 @@ id activity_chooser_view_content
 id add
 id add_btn
 id add_btn1
+id add_btn2
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2706,12 +2706,16 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_
 id btn_2
 id btn_3
 id btn_4
 id btn_add
+id btn_add2
 id btn_create
 id btn_minus
+id btn_minus2
+id button4
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3096,6 +3100,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3122,6 +3127,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_count
+id tv_count2
 id tv_lc
 id tv_result
 id tv_result2

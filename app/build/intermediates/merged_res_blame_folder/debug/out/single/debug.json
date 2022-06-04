@@ -72,10 +72,6 @@
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/drawable_sw370x43.png.flat",
-        "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/drawable/sw370x43.png"
-    },
-    {
         "merged": "/Users/hiksang/Documents/GitHub/1-N/app/build/intermediates/merged_res/debug/layout_activity_option.xml.flat",
         "source": "/Users/hiksang/Documents/GitHub/1-N/app/src/main/res/layout/activity_option.xml"
     },

@@ -12,6 +12,8 @@ import android.widget.Spinner;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -38,6 +40,8 @@ public class NativeActivity extends AppCompatActivity {
     Spinner spinner_method;
     EditText edit_price;
     EditText edit_non_tax;
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private DatabaseReference databaseReference = database.getReference();
 
 
     @Override
@@ -141,10 +145,7 @@ public class NativeActivity extends AppCompatActivity {
                     @Override
                     public void onDone(String data) {
                         Log.d("done", data);
-<<<<<<< Updated upstream
-=======
                         databaseReference.child("User").child("Team_01").child("Receipt").push().setValue(data);
->>>>>>> Stashed changes
                         Intent intent = new Intent(NativeActivity.this,MainActivity.class);
                         startActivity(intent);
                     }
