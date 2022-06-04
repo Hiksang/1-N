@@ -12,6 +12,8 @@ import android.widget.Spinner;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -32,7 +34,8 @@ public class NativeActivity extends AppCompatActivity {
     private String application_id = "62760dcb2701800021f69edc"; //production
 //    private String application_id = "5b9f51264457636ab9a07cdc"; //development
 
-
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private DatabaseReference databaseReference = database.getReference();
     Context context;
     Spinner spinner_pg;
     Spinner spinner_method;
@@ -66,19 +69,6 @@ public class NativeActivity extends AppCompatActivity {
     void bootpayInit() {
         BootpayAnalytics.init(this, application_id); //this는 context
     }
-
-    public void goTraceUser(View v) {
-        BootpayAnalytics.userTrace(
-                "user_1234", //user_id
-                "test1234@gmail.com", //email
-                "홍길동", //user name
-                1, //성별 남자:1, 여자:0
-                "19941014", //생년월일
-                "01012345678", //고객 전화번호
-                "서울" //ex) 서울|인천|대구|광주|부산|울산|경기|강원|충청북도|충북|충청남도|충남|전라북도|전북|전라남도|전남|경상북도|경북|경상남도|경남|제주|세종|대전 중 1
-        );
-    }
-
 
 
     public void goTotalRequest(View v) {
@@ -141,6 +131,7 @@ public class NativeActivity extends AppCompatActivity {
                     @Override
                     public void onDone(String data) {
                         Log.d("done", data);
+                        databaseReference.child("User").child("Team_01").push().setValue(data);
                         Intent intent = new Intent(NativeActivity.this,MainActivity.class);
                         startActivity(intent);
                     }
