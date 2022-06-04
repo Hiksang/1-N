@@ -29,7 +29,7 @@ public class option extends AppCompatActivity {
         setContentView(R.layout.activity_option);
 
         tvCount = findViewById(R.id.tv_count);
-        tvCount.setText(count*6000+1000+"");
+        tvCount.setText(count*6000+4000+"");
         btnAdd = findViewById(R.id.btn_add);
         btnMinus = findViewById(R.id.btn_minus);
 
@@ -37,7 +37,7 @@ public class option extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count++;
-                tvCount.setText(count*6000+1000+"");
+                tvCount.setText(count*6000+4000+"");
             }
         });
 
@@ -45,7 +45,7 @@ public class option extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count--;
-                tvCount.setText(count*6000+1000+"");
+                tvCount.setText(count*6000+4000+"");
             }
         });
 
