@@ -3519,6 +3519,7 @@ int string path_password_strike_through 0x7f11009a
 int string project_id 0x7f11009b
 int string search_menu_title 0x7f11009c
 int string status_bar_notification_info_overflow 0x7f11009d
+int string textview 0x7f11009e
 int style AlertDialog_AppCompat 0x7f120000
 int style AlertDialog_AppCompat_Light 0x7f120001
 int style AndroidThemeColorAccentYellow 0x7f120002

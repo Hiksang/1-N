@@ -210,267 +210,266 @@
 102-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:11:9-54
 103        android:supportsRtl="true"
 103-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:12:9-35
-104        android:testOnly="true"
-105        android:theme="@style/Theme.N1_project"
-105-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:13:9-48
-106        android:usesCleartextTraffic="true" >
-106-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:14:9-44
-107        <activity
-107-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:15:9-17:40
-108            android:name="com.example.n1_project.chamga"
-108-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:16:13-35
-109            android:exported="false" />
-109-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:17:13-37
-110
-111        <meta-data
-111-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:19:9-21:48
-112            android:name="com.google.android.actions"
-112-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:20:13-54
-113            android:resource="@xml/chbutton" />
-113-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:21:13-45
-114
-115        <activity
-115-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:23:9-32:20
-116            android:name="com.example.n1_project.SplashActivity"
-116-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:24:13-43
-117            android:exported="true"
-117-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:13-36
-118            android:theme="@style/SplashTheme" >
-118-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:26:13-47
-119            <intent-filter>
-119-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:13-31:29
-120                <action android:name="android.intent.action.MAIN" />
-120-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:28:17-69
-120-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:28:25-66
-121
-122                <category android:name="android.intent.category.LAUNCHER" />
-122-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:17-77
-122-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:27-74
-123            </intent-filter>
-124        </activity>
-125        <activity
-125-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:9-35:39
-126            android:name="com.example.n1_project.MainActivity"
-126-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:13-41
-127            android:exported="true" />
-127-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:35:13-36
-128        <activity android:name="com.example.n1_project.LoginActivity" />
-128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:9-51
-128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:19-48
-129        <activity android:name="com.example.n1_project.SignUpActivity" />
-129-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:9-52
-129-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:19-49
-130        <activity
-130-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:9-40:40
-131            android:name="com.example.n1_project.Teammake"
-131-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:13-37
-132            android:exported="false" />
-132-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:13-37
-133        <activity android:name="com.example.n1_project.NativeActivity" />
-133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:9-52
-133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:19-49
-134        <activity android:name="com.example.n1_project.WebAppActivity" />
-134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:9-52
-134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:19-49
-135        <activity android:name="com.example.n1_project.option" />
-135-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:43:9-44
-135-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:43:19-41
-136        <activity android:name="com.example.n1_project.menu" />
-136-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:44:9-42
-136-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:44:19-39
-137        <activity android:name="com.example.n1_project.menu2" />
-137-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:45:9-43
-137-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:45:19-40
-138        <activity
-138-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
-139            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-139-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
-140            android:excludeFromRecents="true"
-140-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
-141            android:exported="true"
-141-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
-142            android:launchMode="singleTask"
-142-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
-143            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-143-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
-144            <intent-filter>
-144-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
-145                <action android:name="android.intent.action.VIEW" />
-145-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
-145-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
-146
-147                <category android:name="android.intent.category.DEFAULT" />
-147-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
-147-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
-148                <category android:name="android.intent.category.BROWSABLE" />
-148-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
-148-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
-149
-150                <data
-150-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
-151                    android:host="firebase.auth"
-151-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
-152                    android:path="/"
-152-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
-153                    android:scheme="genericidp" />
-153-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
-154            </intent-filter>
-155        </activity>
-156        <activity
-156-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
-157            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-157-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
-158            android:excludeFromRecents="true"
-158-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
-159            android:exported="true"
-159-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
-160            android:launchMode="singleTask"
-160-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
-161            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-161-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
-162            <intent-filter>
-162-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
-163                <action android:name="android.intent.action.VIEW" />
-163-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
-163-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
-164
-165                <category android:name="android.intent.category.DEFAULT" />
-165-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
-165-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
-166                <category android:name="android.intent.category.BROWSABLE" />
-166-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
-166-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
-167
-168                <data
-168-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
-169                    android:host="firebase.auth"
-169-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
-170                    android:path="/"
-170-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
-171                    android:scheme="recaptcha" />
-171-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
-172            </intent-filter>
-173        </activity>
-174
-175        <service
-175-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
-176            android:name="com.google.firebase.components.ComponentDiscoveryService"
-176-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
-177            android:directBootAware="true"
-177-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
-178            android:exported="false" >
-178-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
-179            <meta-data
-179-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
-180                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-180-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
-181                android:value="com.google.firebase.components.ComponentRegistrar" />
-181-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
-182            <meta-data
-182-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
-183                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-183-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
-184                android:value="com.google.firebase.components.ComponentRegistrar" />
-184-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
-185            <meta-data
-185-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
-186                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-186-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
-187                android:value="com.google.firebase.components.ComponentRegistrar" />
-187-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
-188            <meta-data
-188-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
-189                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-189-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
-190                android:value="com.google.firebase.components.ComponentRegistrar" />
-190-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
-191            <meta-data
-191-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
-192                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-192-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
-193                android:value="com.google.firebase.components.ComponentRegistrar" />
-193-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
-194        </service>
-195
-196        <provider
-196-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
-197            android:name="com.google.firebase.provider.FirebaseInitProvider"
-197-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-198            android:authorities="com.example.n1_project.firebaseinitprovider"
-198-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
-199            android:directBootAware="true"
-199-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
-200            android:exported="false"
-200-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
-201            android:initOrder="100" />
-201-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
-202
-203        <activity
-203-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-204            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-204-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-205            android:exported="false"
-205-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-206-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-207
-208        <receiver
-208-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
-209            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-209-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
-210            android:enabled="true"
-210-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
-211            android:exported="false" >
-211-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
-212        </receiver>
-213
-214        <service
-214-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
-215            android:name="com.google.android.gms.measurement.AppMeasurementService"
-215-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
-216            android:enabled="true"
-216-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
-217            android:exported="false" />
-217-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
-218        <service
-218-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
-219            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-219-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
-220            android:enabled="true"
-220-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
-221            android:exported="false"
-221-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
-222            android:permission="android.permission.BIND_JOB_SERVICE" />
-222-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
-223
-224        <meta-data
-224-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-225            android:name="com.google.android.gms.version"
-225-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-226            android:value="@integer/google_play_services_version" />
-226-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-227
-228        <provider
-228-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-229            android:name="androidx.startup.InitializationProvider"
-229-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-230            android:authorities="com.example.n1_project.androidx-startup"
-230-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-231            android:exported="false" >
-231-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-232            <meta-data
-232-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-233-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-234                android:value="androidx.startup" />
-234-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-235            <meta-data
-235-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-236-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-237                android:value="androidx.startup" />
-237-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-238        </provider>
-239    </application>
-240
-241</manifest>
+104        android:theme="@style/Theme.N1_project"
+104-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:13:9-48
+105        android:usesCleartextTraffic="true" >
+105-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:14:9-44
+106        <activity
+106-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:15:9-17:40
+107            android:name="com.example.n1_project.chamga"
+107-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:16:13-35
+108            android:exported="false" />
+108-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:17:13-37
+109
+110        <meta-data
+110-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:19:9-21:48
+111            android:name="com.google.android.actions"
+111-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:20:13-54
+112            android:resource="@xml/chbutton" />
+112-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:21:13-45
+113
+114        <activity
+114-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:23:9-32:20
+115            android:name="com.example.n1_project.SplashActivity"
+115-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:24:13-43
+116            android:exported="true"
+116-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:25:13-36
+117            android:theme="@style/SplashTheme" >
+117-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:26:13-47
+118            <intent-filter>
+118-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:27:13-31:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:28:17-69
+119-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:28:25-66
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:17-77
+121-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:30:27-74
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:33:9-35:39
+125            android:name="com.example.n1_project.MainActivity"
+125-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:34:13-41
+126            android:exported="true" />
+126-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:35:13-36
+127        <activity android:name="com.example.n1_project.LoginActivity" />
+127-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:9-51
+127-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:36:19-48
+128        <activity android:name="com.example.n1_project.SignUpActivity" />
+128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:9-52
+128-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:37:19-49
+129        <activity
+129-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:38:9-40:40
+130            android:name="com.example.n1_project.Teammake"
+130-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:39:13-37
+131            android:exported="false" />
+131-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:40:13-37
+132        <activity android:name="com.example.n1_project.NativeActivity" />
+132-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:9-52
+132-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:41:19-49
+133        <activity android:name="com.example.n1_project.WebAppActivity" />
+133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:9-52
+133-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:42:19-49
+134        <activity android:name="com.example.n1_project.option" />
+134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:43:9-44
+134-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:43:19-41
+135        <activity android:name="com.example.n1_project.menu" />
+135-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:44:9-42
+135-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:44:19-39
+136        <activity android:name="com.example.n1_project.menu2" />
+136-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:45:9-43
+136-->/Users/hiksang/Documents/GitHub/1-N/app/src/main/AndroidManifest.xml:45:19-40
+137        <activity
+137-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+138            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+138-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+139            android:excludeFromRecents="true"
+139-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+140            android:exported="true"
+140-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+141            android:launchMode="singleTask"
+141-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+142-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+143            <intent-filter>
+143-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+144                <action android:name="android.intent.action.VIEW" />
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+146-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+147                <category android:name="android.intent.category.BROWSABLE" />
+147-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+147-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+148
+149                <data
+149-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+150                    android:host="firebase.auth"
+150-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+151                    android:path="/"
+151-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+152                    android:scheme="genericidp" />
+152-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+153            </intent-filter>
+154        </activity>
+155        <activity
+155-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+156            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+156-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+157            android:excludeFromRecents="true"
+157-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+158            android:exported="true"
+158-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+159            android:launchMode="singleTask"
+159-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+160-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+161            <intent-filter>
+161-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+164-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+165                <category android:name="android.intent.category.BROWSABLE" />
+165-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+165-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+166
+167                <data
+167-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+168                    android:host="firebase.auth"
+168-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+169                    android:path="/"
+169-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+170                    android:scheme="recaptcha" />
+170-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+171            </intent-filter>
+172        </activity>
+173
+174        <service
+174-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+175            android:name="com.google.firebase.components.ComponentDiscoveryService"
+175-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+178            <meta-data
+178-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+179                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+179-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-auth:21.0.3] /Users/hiksang/.gradle/caches/transforms-3/68a5c3682653ff95339cf9411f4ace53/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+182                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+182-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-database:20.0.5] /Users/hiksang/.gradle/caches/transforms-3/c813c8351a3c65b1db8a62986a9e1b1a/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+185                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+185-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-firestore:24.1.2] /Users/hiksang/.gradle/caches/transforms-3/90293fe51c2a84555b0cb44ad54eefd2/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+187            <meta-data
+187-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+188                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+188-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/ac8196cebff257bf87dfeb85f75e596c/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+191                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+191-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-installations:17.0.1] /Users/hiksang/.gradle/caches/transforms-3/548db0d7a336e50eaf89afd9719afe99/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+193        </service>
+194
+195        <provider
+195-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+196            android:name="com.google.firebase.provider.FirebaseInitProvider"
+196-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+197            android:authorities="com.example.n1_project.firebaseinitprovider"
+197-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+200            android:initOrder="100" />
+200-->[com.google.firebase:firebase-common:20.1.1] /Users/hiksang/.gradle/caches/transforms-3/c64b96a24f88a045f80c1fc779942722/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiksang/.gradle/caches/transforms-3/e61132258e7fa911cba195cd005fcc56/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+206
+207        <receiver
+207-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+208            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+208-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+210            android:exported="false" >
+210-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+211        </receiver>
+212
+213        <service
+213-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+214            android:name="com.google.android.gms.measurement.AppMeasurementService"
+214-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+216            android:exported="false" />
+216-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+217        <service
+217-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+218            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+218-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" />
+221-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/hiksang/.gradle/caches/transforms-3/1187887f1157cb327fc6ca7dc58c48e0/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:18.0.0] /Users/hiksang/.gradle/caches/transforms-3/bda31521d12ed220ce20255fd8a53093/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+226
+227        <provider
+227-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+228            android:name="androidx.startup.InitializationProvider"
+228-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+229            android:authorities="com.example.n1_project.androidx-startup"
+229-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+230            android:exported="false" >
+230-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+231            <meta-data
+231-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+232                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+232-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+233                android:value="androidx.startup" />
+233-->[androidx.emoji2:emoji2:1.0.0] /Users/hiksang/.gradle/caches/transforms-3/3716ea57cbd4cf97a6abc39938e32338/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+234            <meta-data
+234-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+235                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+236                android:value="androidx.startup" />
+236-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiksang/.gradle/caches/transforms-3/4c358e7ae1767875a85ee879f7e69c10/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+237        </provider>
+238    </application>
+239
+240</manifest>

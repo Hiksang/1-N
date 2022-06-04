@@ -114,6 +114,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
+string textview
 style SplashTheme
 style Theme.N1_project
 xml chbutton

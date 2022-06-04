@@ -44,7 +44,7 @@ public class chamga extends AppCompatActivity {
     ;
 
         tvCount2 = findViewById(R.id.tv_count2);
-        tvCount2.setText(count*6000+1000+"");
+        tvCount2.setText(count*6000+4000+"");
         btnAdd2 = findViewById(R.id.btn_add2);
         btnMinus2 = findViewById(R.id.btn_minus2);
         addbtn2 = findViewById(R.id.add_btn2);
@@ -53,7 +53,7 @@ public class chamga extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count++;
-                tvCount2.setText(count*6000+1000+"");
+                tvCount2.setText(count*6000+4000+"");
             }
         });
 
@@ -61,7 +61,7 @@ public class chamga extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 count--;
-                tvCount2.setText(count*6000+1000+"");
+                tvCount2.setText(count*6000+4000+"");
             }
         });
         addbtn2.setOnClickListener(new View.OnClickListener() {
