@@ -141,6 +141,10 @@ public class NativeActivity extends AppCompatActivity {
                     @Override
                     public void onDone(String data) {
                         Log.d("done", data);
+<<<<<<< Updated upstream
+=======
+                        databaseReference.child("User").child("Team_01").child("Receipt").push().setValue(data);
+>>>>>>> Stashed changes
                         Intent intent = new Intent(NativeActivity.this,MainActivity.class);
                         startActivity(intent);
                     }
