@@ -22,30 +22,18 @@
 * MVP 구현을 위해 중식 짜장면 주문 프로세스만 구현함.
 
 ## 파일 설명
-BootpayValueHelper.java:
- 부트페이 연동을 위한 도구
-Chamga.java:
- 숫자 증감, 파이어베이스에 데이터 보내기, 결제금액 값 결제화면으로 넘기기
-CustomAadapter.java: 
- 리사이클러뷰 아이템별 클릭시 chamga.java로 넘어가고 그에 해당하는 데이터가 넘어가는 기능
-LoginActivity.java:
- 로그인 기능
-MainActivity.java: 
- 음식 카테고리 선택기능, 파이어베이스에 저장된 팀을 보여주는 리사이클러뷰를 활용한 단축형 팀리스트, 로그아웃 기능
-menu3.java: 
- chamga.java에서 참가할 때 파이어베이스에 등록할 데이터 set
-NativeActivity.java:
- 결제 기능
-Option.java: 
- 숫자 증감, 스피너 기능, 파이에베이스에 데이터 보내기, 결제금액 값 결제화면으로 넘기기
-SignUpActivity.java:
- 회원 가입 기능
-SplashActivity.java:
- 어플 로딩화면(오프닝)
-Teammake.java:
- 파이어베이스에 저장된 데이터를 불러와 리스트로 나타내는 기능
-User.java:
- Option.java에서 등록할 때 파이어베이스에 필요한 변수 세트
+1. BootpayValueHelper.java: 부트페이 연동을 위한 도구
+2. Chamga.java: 숫자 증감, 파이어베이스에 데이터 보내기, 결제금액 값 결제화면으로 넘기기
+3. CustomAadapter.java: 리사이클러뷰 아이템별 클릭시 chamga.java로 넘어가고 그에 해당하는 데이터가 넘어가는 기능
+4. LoginActivity.java: 로그인 기능
+5. MainActivity.java: 음식 카테고리 선택기능, 파이어베이스에 저장된 팀을 보여주는 리사이클러뷰를 활용한 단축형 팀리스트, 로그아웃 기능
+6. menu3.java: chamga.java에서 참가할 때 파이어베이스에 등록할 데이터 set
+7. NativeActivity.java: 결제 기능
+8. Option.java: 숫자 증감, 스피너 기능, 파이에베이스에 데이터 보내기, 결제금액 값 결제화면으로 넘기기
+9. SignUpActivity.java: 회원 가입 기능
+10. SplashActivity.java: 어플 로딩화면(오프닝)
+11. Teammake.java: 파이어베이스에 저장된 데이터를 불러와 리스트로 나타내는 기능
+12. User.java: Option.java에서 등록할 때 파이어베이스에 필요한 변수 세트
 
 ## 의의
 현재 배달의민족에서 시행중인 묶음 배달보다 먼저 아이디어를 제시했음. 또한 배달수령장소를 고정시켜 배달비용을 감소시키고 배달 수요를 유지할 수 있다는 장점이 있다.
